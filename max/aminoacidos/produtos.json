@@ -1,110 +1,246 @@
 [
-       {
-              "TITULO": "Kit Creatina 300g e Coqueteleira Incolor Brinde",
-              "LINK": "/kit-creatina-300g-e-coqueteleira-incolor-brinde/p?skuid=1258",
-              "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/158059-600-0/MAX-Imagem_Coque-Creatina-1.jpg?v=638543956690900000",
-              "PRECO_ANTERIOR": "R$\u00a0110,90",
-              "PRECO_PRINCIPAL": "R$\u00a073,50",
-              "PARCELAMENTO": "At\u00e92xdeR$\u00a036,75",
-              "PRECO_PIX": "R$\u00a071,30"
-       },
-       {
-              "TITULO": "Promopack Las Vegas Special Edition - Creatina 500g + Pr\u00e9-treino H\u00f3rus",
-              "LINK": "/promopack-las-vegas-special-edition/p?skuid=2311",
-              "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/159385-600-0/MAX-PROMOPACK-VEGAS-1-LIMAO.jpg?v=638919227017630000",
-              "PRECO_ANTERIOR": "R$\u00a0209,80",
-              "PRECO_PRINCIPAL": "R$\u00a0115,60",
-              "PARCELAMENTO": "At\u00e93xdeR$\u00a038,53",
-              "PRECO_PIX": "R$\u00a0112,13"
-       },
-       {
-              "TITULO": "Creatina 300 g",
-              "LINK": "/creatine-pote-300g/p?skuid=31",
-              "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157717-600-0/creatine-max-titanium-300g-1.jpg?v=638715246475830000",
-              "PRECO_ANTERIOR": "R$\u00a094,90",
-              "PRECO_PRINCIPAL": "R$\u00a073,50",
-              "PARCELAMENTO": "At\u00e92xdeR$\u00a036,75",
-              "PRECO_PIX": "R$\u00a071,30"
-       },
-       {
-              "TITULO": "Creatina 500g",
-              "LINK": "/creatine-pote-500g/p?skuid=2148",
-              "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/158982-600-0/MAX-CREATINE-500G.jpg?v=638857673212530000",
-              "PRECO_ANTERIOR": "R$\u00a0129,90",
-              "PRECO_PRINCIPAL": "R$\u00a0115,60",
-              "PARCELAMENTO": "At\u00e93xdeR$\u00a038,53",
-              "PRECO_PIX": "R$\u00a0112,13"
-       },
-       {
-              "TITULO": "Creatina Creapure 250g",
-              "LINK": "/creatina-creapure-250g/p?skuid=1180",
-              "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157977-600-0/Creatina-Creapure-250g.png?v=638470625756800000",
-              "PRECO_ANTERIOR": null,
-              "PRECO_PRINCIPAL": "R$\u00a0156,37",
-              "PARCELAMENTO": "At\u00e95xdeR$\u00a031,27",
-              "PRECO_PIX": "R$\u00a0148,55"
-       },
-       {
-              "TITULO": "Pack 2x Creatina 300g",
-              "LINK": "/pack-creatina/p?skuid=1138",
-              "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157923-600-0/MAX-Imagens_Packs_Creatina-300g-2x.jpg?v=638459475504630000",
-              "PRECO_ANTERIOR": "R$\u00a0215,15",
-              "PRECO_PRINCIPAL": "R$\u00a0146,00",
-              "PARCELAMENTO": "At\u00e94xdeR$\u00a036,50",
-              "PRECO_PIX": "R$\u00a0138,70"
-       },
-       {
-              "TITULO": "Creatina Creapure - Rafael Brand\u00e3o",
-              "LINK": "/creatina-creapure-rafael-brandao/p?skuid=1473",
-              "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/158213-600-0/MAX-Imagem-CREAPURE-BRANDAO.jpg?v=638617425597570000",
-              "PRECO_ANTERIOR": "R$\u00a0151,68",
-              "PRECO_PRINCIPAL": "R$\u00a0136,50",
-              "PARCELAMENTO": "At\u00e94xdeR$\u00a034,12",
-              "PRECO_PIX": "R$\u00a0129,67"
-       },
-       {
-              "TITULO": "Creatine 120 Caps",
-              "LINK": "/creatine-pote-120-capsulas/p?skuid=6",
-              "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157727-600-0/creatine-max-titanium-120-capsulas-1.jpg?v=638361931595570000",
-              "PRECO_ANTERIOR": "R$\u00a0164,90",
-              "PRECO_PRINCIPAL": "R$\u00a069,90",
-              "PARCELAMENTO": "At\u00e92xdeR$\u00a034,95",
-              "PRECO_PIX": "R$\u00a066,41"
-       },
-       {
-              "TITULO": "Glutamina L-G 300g",
-              "LINK": "/glutamina-l-g-pote-300g/p?skuid=25",
-              "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157714-600-0/lg-max-titanium-300g-1.jpg?v=638361906136400000",
-              "PRECO_ANTERIOR": "R$\u00a0119,90",
-              "PRECO_PRINCIPAL": "R$\u00a080,74",
-              "PARCELAMENTO": "At\u00e92xdeR$\u00a040,37",
-              "PRECO_PIX": "R$\u00a076,70"
-       },
-       {
-              "TITULO": "Creatina 150 g",
-              "LINK": "/creatine-pote-150g/p?skuid=30",
-              "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157721-600-0/creatine-max-titanium-150g-1.jpg?v=638361928152270000",
-              "PRECO_ANTERIOR": "R$\u00a0129,90",
-              "PRECO_PRINCIPAL": "R$\u00a047,52",
-              "PARCELAMENTO": null,
-              "PRECO_PIX": "R$\u00a045,14"
-       },
-       {
-              "TITULO": "Pack 3x Creatina 300g",
-              "LINK": "/pack-3x-creatina/p?skuid=1154",
-              "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157936-600-0/MAX-Imagens_Packs_Creatina-300g-3x.jpg?v=638459537852600000",
-              "PRECO_ANTERIOR": "R$\u00a0322,72",
-              "PRECO_PRINCIPAL": "R$\u00a0219,00",
-              "PARCELAMENTO": "At\u00e96xdeR$\u00a036,50",
-              "PRECO_PIX": "R$\u00a0208,05"
-       },
-       {
-              "TITULO": "Creatina 100g",
-              "LINK": "/creatine-pote-100g/p?skuid=29",
-              "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157724-600-0/creatine-max-titanium-100g-1.jpg?v=638361929143300000",
-              "PRECO_ANTERIOR": "R$\u00a0109,90",
-              "PRECO_PRINCIPAL": "R$\u00a039,90",
-              "PARCELAMENTO": null,
-              "PRECO_PIX": "R$\u00a037,90"
-       }
+    {
+        "TITULO": "Kit Creatina 300g e Coqueteleira Incolor Brinde",
+        "LINK": "https://www.maxtitanium.com.br/kit-creatina-300g-e-coqueteleira-incolor-brinde/p?skuid=1258",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/158059-600-0/MAX-Imagem_Coque-Creatina-1.jpg?v=638543956690900000",
+        "PRECO_ANTERIOR": "R$ 110,90",
+        "PRECO_PRINCIPAL": "R$ 75,10",
+        "PARCELAMENTO": "Até2xdeR$ 37,55",
+        "PRECO_PIX": "R$ 72,85",
+        "OFF": "34% OFF",
+        "REF": "Ref: Kit-Creatina-Coqueteleira",
+        "DESCRICAO": "",
+        "BENEFICIOS": [
+            "Max Titanium: Qualidade Superior em Cada Produto",
+            "Produtos certificados pelos principais órgãos reguladores de saúde e nutrição",
+            "Ingredientes de qualidade internacional",
+            "﻿",
+            "Desenvolvido com a mais alta tecnologia",
+            "Excelência no mercado de suplementação nacional",
+            "Suporte essencial para suas metas",
+            "Mais eficácia e segurança"
+        ]
+    },
+    {
+        "TITULO": "Promopack Las Vegas Special Edition - Creatina 500g + Pré-treino Hórus",
+        "LINK": "https://www.maxtitanium.com.br/promopack-las-vegas-special-edition/p?skuid=2311",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/159385-600-0/MAX-PROMOPACK-VEGAS-1-LIMAO.jpg?v=638919227017630000",
+        "PRECO_ANTERIOR": "R$ 209,80",
+        "PRECO_PRINCIPAL": "R$ 115,60",
+        "PARCELAMENTO": "Até3xdeR$ 38,53",
+        "PRECO_PIX": "R$ 112,13",
+        "OFF": "46% OFF",
+        "REF": "Ref: PA.010.003.0015",
+        "DESCRICAO": "Cada conquista nasce no treino duro, no descanso calculado, naalimentação precisa e na suplementação que acompanha cada fase dajornada.Enquanto uns contam com a sorte, a gente conta esforço, suor elágrimas. Enquanto muitos esperam a oportunidade perfeita, a genteconstrói o caminho, um dia após o outro.Somos a maior formadora de campeões porque apostamos alto naquiloque realmente importa: VOCÊ.Pensando nisso, a Max trouxe o Promopack: LAS VEGAS 2025 –SPECIAL EDITION, com produtos exclusivos para otimizar seusresultados.Dentro do pack, você encontra uma CREATINA de 500g e o HÓRUS 150g.Saiba mais sobre como esses dois produtos poderão te auxiliar nostreinos:HÓRUS É um produto para ser consumido no pré treino. Para quem seexercita com intensidade, a fadiga é um dos principais fatores queinfluenciam o rendimento, por isso desenvolvemos o HÓRUS: comformulação altamente tecnológica e ingredientes de altíssima qualidade,para você ter um treino com muito mais eficiência.A CREATINA auxilia no aumento do desempenho físico durante exercíciosrepetidos de curta duração e alta intensidade.",
+        "BENEFICIOS": [
+            "Produtos certificados pelos principais órgãos reguladores de saúde e nutrição",
+            "Ingredientes de qualidade internacional",
+            "﻿",
+            "Desenvolvido com a mais alta tecnologia",
+            "Excelência no mercado de suplementação nacional",
+            "Suporte essencial para suas metas",
+            "Mais eficácia e segurança"
+        ]
+    },
+    {
+        "TITULO": "Creatina 300 g",
+        "LINK": "https://www.maxtitanium.com.br/creatine-pote-300g/p?skuid=31",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157717-600-0/creatine-max-titanium-300g-1.jpg?v=638715246475830000",
+        "PRECO_ANTERIOR": "R$ 94,90",
+        "PRECO_PRINCIPAL": "R$ 75,10",
+        "PARCELAMENTO": "Até2xdeR$ 37,55",
+        "PRECO_PIX": "R$ 72,85",
+        "OFF": "23% OFF",
+        "REF": "Ref: PA.001.001.0090",
+        "DESCRICAO": "A creatina auxilia no aumento do desempenho físico durante exercícios repetidos de curta duração e alta intensidade.\nFormada a partir da associação de três aminoácidos de alto valor biológico (arginina, glicina e metionina), a creatina está presente naturalmente em nosso organismo, sendo que cerca de 95% do seu conteúdo é armazenado no músculo esquelético. Recomenda-se a ingestão desta substância juntamente com um carboidrato de alto índice glicêmico para facilitar o seu transporte para dentro das células musculares.",
+        "BENEFICIOS": [
+            "O suplemento mais estudado e comprovado pela ciência",
+            "Creatina Monohidratada",
+            "100% Pura",
+            "Fonte de energia para os músculos e cérebro",
+            "3.000 mg de Creatina por dose",
+            "Zero Carboidratos",
+            "Zero Açúcar"
+        ]
+    },
+    {
+        "TITULO": "Creatina 500g",
+        "LINK": "https://www.maxtitanium.com.br/creatine-pote-500g/p?skuid=2148",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/158982-600-0/MAX-CREATINE-500G.jpg?v=638857673212530000",
+        "PRECO_ANTERIOR": "R$ 129,90",
+        "PRECO_PRINCIPAL": "R$ 115,60",
+        "PARCELAMENTO": "Até3xdeR$ 38,53",
+        "PRECO_PIX": "R$ 112,13",
+        "OFF": "13% OFF",
+        "REF": "Ref: PA.001.001.0124",
+        "DESCRICAO": "A Creatine Pote com 500g da Max Titanium é a escolha ideal para quem busca maximizar seus resultados nos treinos de alta intensidade. Este suplemento é composto por creatina monohidratada de alta pureza, conhecida por sua eficácia em aumentar a força muscular, melhorar o desempenho atlético e acelerar a recuperação. Cada dose oferece 3.000mg de creatina, fornecendo a energia necessária para treinos mais pesados e eficazes, contribuindo significativamente para o ganho de massa muscular e a melhoria da performance.A creatina é um suplemento versátil e essencial, indicado tanto para atletas de elite quanto para iniciantes. Ela potencializa a síntese de ATP, a principal fonte de energia para exercícios de alta intensidade, permitindo treinos mais intensos e eficazes. Com elevada absorção e eficácia comprovada, a Creatine da Max Titanium é fundamental para alcançar seus objetivos de força e hipertrofia de maneira segura e eficiente.Escolher a Creatine Pote com 500g é investir em um produto de alta qualidade, respaldado por uma marca brasileira reconhecida por sua excelência e compromisso com a performance esportiva. Experimente e descubra como a creatina pode transformar sua rotina de treinos, elevando seu potencial e ajudando a alcançar seus objetivos de saúde e fitness de forma segura e eficaz.",
+        "BENEFICIOS": [
+            "O suplemento mais estudado e comprovado pela ciência",
+            "Creatina Monohidratada",
+            "100% Pura",
+            "Fonte de energia para os músculos e cérebro",
+            "3.000 mg de Creatina por dose",
+            "Zero Carboidratos",
+            "Zero Açúcar"
+        ]
+    },
+    {
+        "TITULO": "Creatina Creapure 250g",
+        "LINK": "https://www.maxtitanium.com.br/creatina-creapure-250g/p?skuid=1180",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157977-600-0/Creatina-Creapure-250g.png?v=638470625756800000",
+        "PRECO_ANTERIOR": "R$ 156,37",
+        "PRECO_PRINCIPAL": "R$ 147,20",
+        "PARCELAMENTO": "Até4xdeR$ 36,80",
+        "PRECO_PIX": "R$ 142,78",
+        "OFF": "8% OFF",
+        "REF": "Ref: PA.001.001.0121",
+        "DESCRICAO": "250g",
+        "BENEFICIOS": [
+            "Matéria-prima Importada",
+            "Maior Grau de Pureza do Mercado",
+            "Fonte de energia para os músculos e cérebro",
+            "3.000 mg de Creatina por dose",
+            "Zero Carboidratos",
+            "Zero Açúcar"
+        ]
+    },
+    {
+        "TITULO": "Creatina Creapure - Rafael Brandão",
+        "LINK": "https://www.maxtitanium.com.br/creatina-creapure-rafael-brandao/p?skuid=1473",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/158213-600-0/MAX-Imagem-CREAPURE-BRANDAO.jpg?v=638617425597570000",
+        "PRECO_ANTERIOR": "R$ 151,68",
+        "PRECO_PRINCIPAL": "R$ 136,50",
+        "PARCELAMENTO": "Até4xdeR$ 34,12",
+        "PRECO_PIX": "R$ 132,41",
+        "OFF": "12% OFF",
+        "REF": "Ref: PA.001.001.0122",
+        "DESCRICAO": "A Creatina da Linha Rafael Brandão, traz a creatina na concentração e pureza da exclusiva tecnologia alemã Creapure®\n A creatina auxilia no aumento do desempenho físico  durante exercícios repetidos de curta duração e alta intensidade, além de ajudar a complementar os estoques endógenos de creatina",
+        "BENEFICIOS": []
+    },
+    {
+        "TITULO": "Pack 2x Creatina 300g",
+        "LINK": "https://www.maxtitanium.com.br/pack-creatina/p?skuid=1138",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157923-600-0/MAX-Imagens_Packs_Creatina-300g-2x.jpg?v=638459475504630000",
+        "PRECO_ANTERIOR": null,
+        "PRECO_PRINCIPAL": "R$ 150,20",
+        "PARCELAMENTO": "Até5xdeR$ 30,04",
+        "PRECO_PIX": "R$ 145,69",
+        "OFF": "3% OFF",
+        "REF": "Ref: Pack-01",
+        "DESCRICAO": "300g",
+        "BENEFICIOS": [
+            "O suplemento mais estudado e comprovado pela ciência",
+            "Creatina Monohidratada",
+            "100% Pura",
+            "Fonte de energia para os músculos e cérebro",
+            "3.000 mg de Creatina por dose",
+            "Zero Carboidratos",
+            "Zero Açúcar"
+        ]
+    },
+    {
+        "TITULO": "Glutamina L-G 300g",
+        "LINK": "https://www.maxtitanium.com.br/glutamina-l-g-pote-300g/p?skuid=25",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157714-600-0/lg-max-titanium-300g-1.jpg?v=638361906136400000",
+        "PRECO_ANTERIOR": null,
+        "PRECO_PRINCIPAL": "R$ 94,40",
+        "PARCELAMENTO": "Até3xdeR$ 31,46",
+        "PRECO_PIX": "R$ 91,57",
+        "OFF": "2% OFF",
+        "REF": "Ref: PA.001.001.0084",
+        "DESCRICAO": "Durante períodos de treinamento intenso, a ingestão reduzida de carboidratos ou aminoácidos podem fazer com que os estoques de glutamina no organismo sejam prejudicados.\n A glutamina é o mais abundante aminoácido de forma livre encontrado no tecido muscular, sendo utilizada na síntese de proteína, além de ser um nutriente importante para as células. \nA suplementação com L-G auxilia a manter a quantidade de glutamina que o organismo necessita.\nO grande diferencial do produto é que a Glutamina presente no L-G da Max Titanium conta com o Selo PURE AMINO ACID by Ajinomoto Co.®, que garante a altíssima qualidade e pureza deste aminoácido.",
+        "BENEFICIOS": [
+            "Max Titanium: Qualidade Superior em Cada Produto",
+            "Produtos devidamente regularizados junto ao órgão competente",
+            "Ingredientes de qualidade internacional",
+            "Desenvolvido com a mais alta tecnologia",
+            "Excelência no mercado de suplementação nacional",
+            "Suporte essencial para suas metas",
+            "Mais eficácia e segurança"
+        ]
+    },
+    {
+        "TITULO": "Creatine 120 Caps",
+        "LINK": "https://www.maxtitanium.com.br/creatine-pote-120-capsulas/p?skuid=6",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157727-600-0/creatine-max-titanium-120-capsulas-1.jpg?v=638361931595570000",
+        "PRECO_ANTERIOR": "R$ 164,90",
+        "PRECO_PRINCIPAL": "R$ 69,90",
+        "PARCELAMENTO": "Até2xdeR$ 34,95",
+        "PRECO_PIX": "R$ 67,80",
+        "OFF": "58% OFF",
+        "REF": "Ref: PA.001.001.0087",
+        "DESCRICAO": "A Creatina auxilia no aumento do desempenho físico durante exercícios repetidos de curta duração e alta intensidade. \nFormada a partir da associação de três aminoácidos de alto valor biológico (arginina, glicina e metionina), a creatina está presente naturalmente em nosso organismo, sendo que cerca de 95% do seu conteúdo é armazenado no músculo esquelético. \nRecomenda-se a ingestão desta substância juntamente com um carboidrato de alto índice glicêmico para facilitar o seu transporte para dentro das células musculares.",
+        "BENEFICIOS": [
+            "O suplemento mais estudado e comprovado pela ciência",
+            "Creatina Monohidratada",
+            "100% Pura",
+            "Fonte de energia para os músculos e cérebro",
+            "3.000 mg de Creatina por dose",
+            "Zero Carboidratos",
+            "Zero Açúcar"
+        ]
+    },
+    {
+        "TITULO": "Creatina 150 g",
+        "LINK": "https://www.maxtitanium.com.br/creatine-pote-150g/p?skuid=30",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157721-600-0/creatine-max-titanium-150g-1.jpg?v=638361928152270000",
+        "PRECO_ANTERIOR": "R$ 129,90",
+        "PRECO_PRINCIPAL": "R$ 47,52",
+        "PARCELAMENTO": null,
+        "PRECO_PIX": "R$ 46,09",
+        "OFF": "64% OFF",
+        "REF": "Ref: PA.001.001.0097",
+        "DESCRICAO": "A creatina auxilia no aumento do desempenho físico durante exercícios repetidos de curta duração e alta intensidade.\nFormada a partir da associação de três aminoácidos de alto valor biológico (arginina, glicina e metionina), a creatina está presente naturalmente em nosso organismo, sendo que cerca de 95% do seu conteúdo é armazenado no músculo esquelético. Recomenda-se a ingestão desta substância juntamente com um carboidrato de alto índice glicêmico para facilitar o seu transporte para dentro das células musculares.",
+        "BENEFICIOS": [
+            "O suplemento mais estudado e comprovado pela ciência",
+            "Creatina Monohidratada",
+            "100% Pura",
+            "Fonte de energia para os músculos e cérebro",
+            "3.000 mg de Creatina por dose",
+            "Zero Carboidratos",
+            "Zero Açúcar"
+        ]
+    },
+    {
+        "TITULO": "Pack 3x Creatina 300g",
+        "LINK": "https://www.maxtitanium.com.br/pack-3x-creatina/p?skuid=1154",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157936-600-0/MAX-Imagens_Packs_Creatina-300g-3x.jpg?v=638459537852600000",
+        "PRECO_ANTERIOR": null,
+        "PRECO_PRINCIPAL": "R$ 225,30",
+        "PARCELAMENTO": "Até6xdeR$ 37,55",
+        "PRECO_PIX": "R$ 218,54",
+        "OFF": "3% OFF",
+        "REF": "Ref: Pack-creatina-02",
+        "DESCRICAO": "Pack:  3 unidades de Creatina 300 g MonoHidratada",
+        "BENEFICIOS": [
+            "O suplemento mais estudado e comprovado pela ciência",
+            "Creatina Monohidratada",
+            "100% Pura",
+            "Fonte de energia para os músculos e cérebro",
+            "3.000 mg de Creatina por dose",
+            "Zero Carboidratos",
+            "Zero Açúcar"
+        ]
+    },
+    {
+        "TITULO": "Creatina 100g",
+        "LINK": "https://www.maxtitanium.com.br/creatine-pote-100g/p?skuid=29",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157724-600-0/creatine-max-titanium-100g-1.jpg?v=638361929143300000",
+        "PRECO_ANTERIOR": "R$ 109,90",
+        "PRECO_PRINCIPAL": "R$ 39,90",
+        "PARCELAMENTO": null,
+        "PRECO_PIX": "R$ 38,70",
+        "OFF": "64% OFF",
+        "REF": "Ref: PA.001.001.0096",
+        "DESCRICAO": "A creatina auxilia no aumento do desempenho físico durante exercícios repetidos de curta duração e alta intensidade.\r\nFormada a partir da associação de três aminoácidos de alto valor biológico (arginina, glicina e metionina), a creatina está presente naturalmente em nosso organismo, sendo que cerca de 95% do seu conteúdo é armazenado no músculo esquelético.Recomenda-se a ingestão desta substância juntamente com um carboidrato de alto índice glicêmico para facilitar o seu transporte para dentro das células musculares.",
+        "BENEFICIOS": [
+            "O suplemento mais estudado e comprovado pela ciência",
+            "Creatina Monohidratada",
+            "100% Pura",
+            "Fonte de energia para os músculos e cérebro",
+            "3.000 mg de Creatina por dose",
+            "Zero Carboidratos",
+            "Zero Açúcar"
+        ]
+    }
 ]

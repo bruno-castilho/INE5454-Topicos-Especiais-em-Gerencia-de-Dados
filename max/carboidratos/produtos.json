@@ -1,47 +1,102 @@
 [
-       {
-              "TITULO": "Mass Titanium Refil 3Kg",
-              "LINK": "/masstitanium3kg/p?skuid=1486",
-              "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157705-600-0/mass-titanium-max-titanium-3kg-baunilha-1.jpg?v=638361897681700000",
-              "PRECO_ANTERIOR": "R$\u00a0149,00",
-              "PRECO_PRINCIPAL": "R$\u00a0121,20",
-              "PARCELAMENTO": "At\u00e94xdeR$\u00a030,30",
-              "PRECO_PIX": "R$\u00a0115,14"
-       },
-       {
-              "TITULO": "Super Gainers Refil 3Kg",
-              "LINK": "/supergainers3kg/p?skuid=1534",
-              "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/156836-600-0/Super-Gainers-morango-3kg.png?v=638242683824870000",
-              "PRECO_ANTERIOR": "R$\u00a0159,00",
-              "PRECO_PRINCIPAL": "R$\u00a0129,00",
-              "PARCELAMENTO": "At\u00e94xdeR$\u00a032,25",
-              "PRECO_PIX": "R$\u00a0122,55"
-       },
-       {
-              "TITULO": "Mass Titanium 17500 ZERO LACTOSE 2,4kg",
-              "LINK": "/mass-titanium-17500-zero-lactose/p?skuid=209",
-              "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157546-600-0/mass-titanium-zero-lactose-max-titanium-2.4kg-chocolate-1.jpg?v=638348710555570000",
-              "PRECO_ANTERIOR": "R$\u00a0144,90",
-              "PRECO_PRINCIPAL": "R$\u00a0129,00",
-              "PARCELAMENTO": "At\u00e94xdeR$\u00a032,25",
-              "PRECO_PIX": "R$\u00a0122,55"
-       },
-       {
-              "TITULO": "Mass Titanium Refil 1,4Kg",
-              "LINK": "/mass-titanium-17500-14kg/p?skuid=97",
-              "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157518-600-0/mass-titanium-max-titanium-1.4kg-chocolate-1.jpg?v=638348697224730000",
-              "PRECO_ANTERIOR": "R$\u00a079,00",
-              "PRECO_PRINCIPAL": "R$\u00a066,50",
-              "PARCELAMENTO": "At\u00e92xdeR$\u00a033,25",
-              "PRECO_PIX": "R$\u00a063,18"
-       },
-       {
-              "TITULO": "Super Whey 900G",
-              "LINK": "/super-whey-900g/p?skuid=1543",
-              "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/155547-600-0/PA.003.002.0022.jpg?v=638874880315000000",
-              "PRECO_ANTERIOR": "R$\u00a099,90",
-              "PRECO_PRINCIPAL": "R$\u00a079,90",
-              "PARCELAMENTO": "At\u00e92xdeR$\u00a039,95",
-              "PRECO_PIX": "R$\u00a075,91"
-       }
+    {
+        "TITULO": "Mass Titanium Refil 3Kg",
+        "LINK": "https://www.maxtitanium.com.br/masstitanium3kg/p?skuid=1486",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157705-600-0/mass-titanium-max-titanium-3kg-baunilha-1.jpg?v=638361897681700000",
+        "PRECO_ANTERIOR": "R$ 149,00",
+        "PRECO_PRINCIPAL": "R$ 118,80",
+        "PARCELAMENTO": "Até3xdeR$ 39,60",
+        "PRECO_PIX": "R$ 115,24",
+        "OFF": "22% OFF",
+        "REF": "Ref: PA.003.020.0018",
+        "DESCRICAO": "MASS TITANIUM 17500 é o hipercalórico ideal para auxiliar atletas e praticantes de atividade física no aporte energético de que necessitam.\n Sua fórmula exclusiva contém três fontes de proteínas com alto valor biológico: whey protein concentrada, colágeno hidrolisado e albumina (clara de ovo). \nAs proteínas auxiliam na formação dos músculos.",
+        "BENEFICIOS": [
+            "Até 30g de proteína por porção",
+            "Ganho de massa muscular muito mais rápido",
+            "Dose extra de energia e massa",
+            "Auxílio na formação dos músculos e ossos",
+            "Auxílio na recuperação muscular após exercícios extenuantes",
+            "Fonte de vitaminas"
+        ]
+    },
+    {
+        "TITULO": "Super Gainers Refil 3Kg",
+        "LINK": "https://www.maxtitanium.com.br/supergainers3kg/p?skuid=1534",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/156836-600-0/Super-Gainers-morango-3kg.png?v=638242683824870000",
+        "PRECO_ANTERIOR": "R$ 159,00",
+        "PRECO_PRINCIPAL": "R$ 129,00",
+        "PARCELAMENTO": "Até4xdeR$ 32,25",
+        "PRECO_PIX": "R$ 122,55",
+        "OFF": "22% OFF",
+        "REF": "Ref: PA.003.020.0025",
+        "DESCRICAO": "SUPER GAINERS foi desenvolvido para quem busca bons resultados na formação muscular e melhor rendimento durante os treinos. \nAtravés de uma combinação de ingredientes de alta qualidade e biodisponibilidade, ele oferece 3g de creatina por porção, que auxilia no aumento do desempenho físico durante exercícios repetidos de curta duração e alta intensidade. \nCom dois tipos de fontes de proteínas (whey protein concentrado e isolado) e com carboidratos de liberação imediata e gradual (maltodextrina e waxy maize). \nSUPER GAINERS é o produto ideal para quem quer ser MAX!\r\n\r\nSobre o produto\r\nSUPER GAINERS foi desenvolvido para quem busca bons resultados na formação muscular e melhor rendimento durante os treinos. \nAtravés de uma combinação de ingredientes de alta qualidade e biodisponibilidade, ele oferece 3g de creatina por porção, que auxilia no aumento do desempenho físico durante exercícios repetidos de curta duração e alta intensidade. \nCom dois tipos de fontes de proteínas (whey protein concentrado e isolado) e com carboidratos de liberação imediata e gradual (maltodextrina e waxy maize). \nSUPER GAINERS é o produto ideal para quem quer ser MAX!",
+        "BENEFICIOS": [
+            "Até 30g de proteína por porção",
+            "Ganho de massa muscular muito mais rápido",
+            "Dose extra de energia e massa",
+            "Auxílio na formação dos músculos e ossos",
+            "Auxílio na recuperação muscular após exercícios extenuantes",
+            "Fonte de vitaminas"
+        ]
+    },
+    {
+        "TITULO": "Mass Titanium 17500 ZERO LACTOSE 2,4kg",
+        "LINK": "https://www.maxtitanium.com.br/mass-titanium-17500-zero-lactose/p?skuid=209",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157546-600-0/mass-titanium-zero-lactose-max-titanium-2.4kg-chocolate-1.jpg?v=638348710555570000",
+        "PRECO_ANTERIOR": null,
+        "PRECO_PRINCIPAL": "R$ 135,80",
+        "PARCELAMENTO": "Até4xdeR$ 33,95",
+        "PRECO_PIX": "R$ 131,73",
+        "OFF": "2% OFF",
+        "REF": "Ref: PA.003.020.0014",
+        "DESCRICAO": "Hipercalórico completo e sem lactose! MASS TITANIUM 17500 ZERO LACTOSE combina três fontes proteicas de alta biodisponibilidade e digestibilidade e duas fontes de carboidratos.\n Sua fórmula conta ainda com vitaminas e minerais que contribuem para a metabolização dos macronutrientes. ",
+        "BENEFICIOS": [
+            "Ganho de Massa Muscular Acelerado",
+            "Zero lactose",
+            "Três fontes proteicas de alta biodisponibilidade",
+            "Auxílio na formação dos músculos e ossos",
+            "Auxílio na recuperação muscular após exercícios extenuantes",
+            "Fonte de vitaminas"
+        ]
+    },
+    {
+        "TITULO": "Mass Titanium Refil 1,4Kg",
+        "LINK": "https://www.maxtitanium.com.br/mass-titanium-17500-14kg/p?skuid=97",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157518-600-0/mass-titanium-max-titanium-1.4kg-chocolate-1.jpg?v=638348697224730000",
+        "PRECO_ANTERIOR": "R$ 79,00",
+        "PRECO_PRINCIPAL": "R$ 70,00",
+        "PARCELAMENTO": "Até2xdeR$ 35,00",
+        "PRECO_PIX": "R$ 67,90",
+        "OFF": "14% OFF",
+        "REF": "Ref: PA.003.002.0011",
+        "DESCRICAO": "MASS TITANIUM 17500 é o hipercalórico ideal para auxiliar atletas e praticantes de atividade física no aporte energético de que necessitam.\n Sua fórmula exclusiva contém três fontes de proteínas com alto valor biológico: whey protein concentrada, colágeno hidrolisado e albumina (clara de ovo). \nAs proteínas auxiliam na formação dos músculos.",
+        "BENEFICIOS": [
+            "Até 30g de proteína por porção",
+            "Ganho de massa muscular muito mais rápido",
+            "Dose extra de energia e massa",
+            "Auxílio na formação dos músculos e ossos",
+            "Auxílio na recuperação muscular após exercícios extenuantes",
+            "Fonte de vitaminas"
+        ]
+    },
+    {
+        "TITULO": "Super Whey 900G",
+        "LINK": "https://www.maxtitanium.com.br/super-whey-900g/p?skuid=1543",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/155547-600-0/PA.003.002.0022.jpg?v=638874880315000000",
+        "PRECO_ANTERIOR": "R$ 99,90",
+        "PRECO_PRINCIPAL": "R$ 79,90",
+        "PARCELAMENTO": "Até2xdeR$ 39,95",
+        "PRECO_PIX": "R$ 75,91",
+        "OFF": "24% OFF",
+        "REF": "Ref: PA.004.020.0081",
+        "DESCRICAO": "O SUPER WHEY possui fórmula que auxilia na obtenção de máximo resultado em seus treinos. \nO SUPER WHEY contém 79g de carboidratos e 30g de proteínas por porção, que auxiliam na formação dos músculos e ossos.\nAlém disso, o produto conta com adição de carboidratos, que auxiliam na recuperação da função muscular após exercícios extenuantes.",
+        "BENEFICIOS": [
+            "Até 30g de proteína por porção",
+            "Ganho de massa muscular muito mais rápido",
+            "Dose extra de energia e massa",
+            "Auxílio na formação dos músculos e ossos",
+            "Auxílio na recuperação muscular após exercícios extenuantes",
+            "Fonte de vitaminas"
+        ]
+    }
 ]
