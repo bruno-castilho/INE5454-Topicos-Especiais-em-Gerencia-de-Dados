@@ -1,0 +1,112 @@
+{
+    "produtos": [
+        {
+            "TITULO": "Kit Creatina 300g e Coqueteleira Incolor Brinde",
+            "LINK": "/kit-creatina-300g-e-coqueteleira-incolor-brinde/p?skuid=1258",
+            "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/158059-600-0/MAX-Imagem_Coque-Creatina-1.jpg?v=638543956690900000",
+            "PRECO_ANTERIOR": "R$ 110,90",
+            "PRECO_PRINCIPAL": "R$ 73,50",
+            "PARCELAMENTO": "Até2xdeR$ 36,75",
+            "PRECO_PIX": "R$ 71,30"
+        },
+        {
+            "TITULO": "Promopack Las Vegas Special Edition - Creatina 500g + Pré-treino Hórus",
+            "LINK": "/promopack-las-vegas-special-edition/p?skuid=2311",
+            "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/159385-600-0/MAX-PROMOPACK-VEGAS-1-LIMAO.jpg?v=638919227017630000",
+            "PRECO_ANTERIOR": "R$ 209,80",
+            "PRECO_PRINCIPAL": "R$ 115,60",
+            "PARCELAMENTO": "Até3xdeR$ 38,53",
+            "PRECO_PIX": "R$ 112,13"
+        },
+        {
+            "TITULO": "Creatina 300 g",
+            "LINK": "/creatine-pote-300g/p?skuid=31",
+            "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157717-600-0/creatine-max-titanium-300g-1.jpg?v=638715246475830000",
+            "PRECO_ANTERIOR": "R$ 94,90",
+            "PRECO_PRINCIPAL": "R$ 73,50",
+            "PARCELAMENTO": "Até2xdeR$ 36,75",
+            "PRECO_PIX": "R$ 71,30"
+        },
+        {
+            "TITULO": "Creatina 500g",
+            "LINK": "/creatine-pote-500g/p?skuid=2148",
+            "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/158982-600-0/MAX-CREATINE-500G.jpg?v=638857673212530000",
+            "PRECO_ANTERIOR": "R$ 129,90",
+            "PRECO_PRINCIPAL": "R$ 115,60",
+            "PARCELAMENTO": "Até3xdeR$ 38,53",
+            "PRECO_PIX": "R$ 112,13"
+        },
+        {
+            "TITULO": "Creatina Creapure 250g",
+            "LINK": "/creatina-creapure-250g/p?skuid=1180",
+            "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157977-600-0/Creatina-Creapure-250g.png?v=638470625756800000",
+            "PRECO_ANTERIOR": null,
+            "PRECO_PRINCIPAL": "R$ 156,37",
+            "PARCELAMENTO": "Até5xdeR$ 31,27",
+            "PRECO_PIX": "R$ 148,55"
+        },
+        {
+            "TITULO": "Pack 2x Creatina 300g",
+            "LINK": "/pack-creatina/p?skuid=1138",
+            "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157923-600-0/MAX-Imagens_Packs_Creatina-300g-2x.jpg?v=638459475504630000",
+            "PRECO_ANTERIOR": "R$ 215,15",
+            "PRECO_PRINCIPAL": "R$ 146,00",
+            "PARCELAMENTO": "Até4xdeR$ 36,50",
+            "PRECO_PIX": "R$ 138,70"
+        },
+        {
+            "TITULO": "Creatina Creapure - Rafael Brandão",
+            "LINK": "/creatina-creapure-rafael-brandao/p?skuid=1473",
+            "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/158213-600-0/MAX-Imagem-CREAPURE-BRANDAO.jpg?v=638617425597570000",
+            "PRECO_ANTERIOR": "R$ 151,68",
+            "PRECO_PRINCIPAL": "R$ 136,50",
+            "PARCELAMENTO": "Até4xdeR$ 34,12",
+            "PRECO_PIX": "R$ 129,67"
+        },
+        {
+            "TITULO": "Creatine 120 Caps",
+            "LINK": "/creatine-pote-120-capsulas/p?skuid=6",
+            "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157727-600-0/creatine-max-titanium-120-capsulas-1.jpg?v=638361931595570000",
+            "PRECO_ANTERIOR": "R$ 164,90",
+            "PRECO_PRINCIPAL": "R$ 69,90",
+            "PARCELAMENTO": "Até2xdeR$ 34,95",
+            "PRECO_PIX": "R$ 66,41"
+        },
+        {
+            "TITULO": "Glutamina L-G 300g",
+            "LINK": "/glutamina-l-g-pote-300g/p?skuid=25",
+            "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157714-600-0/lg-max-titanium-300g-1.jpg?v=638361906136400000",
+            "PRECO_ANTERIOR": "R$ 119,90",
+            "PRECO_PRINCIPAL": "R$ 80,74",
+            "PARCELAMENTO": "Até2xdeR$ 40,37",
+            "PRECO_PIX": "R$ 76,70"
+        },
+        {
+            "TITULO": "Creatina 150 g",
+            "LINK": "/creatine-pote-150g/p?skuid=30",
+            "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157721-600-0/creatine-max-titanium-150g-1.jpg?v=638361928152270000",
+            "PRECO_ANTERIOR": "R$ 129,90",
+            "PRECO_PRINCIPAL": "R$ 47,52",
+            "PARCELAMENTO": null,
+            "PRECO_PIX": "R$ 45,14"
+        },
+        {
+            "TITULO": "Pack 3x Creatina 300g",
+            "LINK": "/pack-3x-creatina/p?skuid=1154",
+            "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157936-600-0/MAX-Imagens_Packs_Creatina-300g-3x.jpg?v=638459537852600000",
+            "PRECO_ANTERIOR": "R$ 322,72",
+            "PRECO_PRINCIPAL": "R$ 219,00",
+            "PARCELAMENTO": "Até6xdeR$ 36,50",
+            "PRECO_PIX": "R$ 208,05"
+        },
+        {
+            "TITULO": "Creatina 100g",
+            "LINK": "/creatine-pote-100g/p?skuid=29",
+            "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157724-600-0/creatine-max-titanium-100g-1.jpg?v=638361929143300000",
+            "PRECO_ANTERIOR": "R$ 109,90",
+            "PRECO_PRINCIPAL": "R$ 39,90",
+            "PARCELAMENTO": null,
+            "PRECO_PIX": "R$ 37,90"
+        }
+    ]
+}
