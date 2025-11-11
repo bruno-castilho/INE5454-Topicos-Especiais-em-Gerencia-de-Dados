@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import Homepainel from "./pages/Homepainel";
+import { RouterProvider } from 'react-router-dom'
+import { router } from './route.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <Homepainel />
+      <RouterProvider router={router} />
     </>
   )
 }

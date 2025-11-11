@@ -1,21 +1,10 @@
- import * as React from 'react';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 
-export default function Boxproduct(props) {
+export function Boxproduct(props) {
 
     const { product } = props
-    const [prod, setProduct] = React.useState({
-        TITULO: "Kit Creatina 300g e Coqueteleira Incolor Brinde",
-        LINK: "/kit-creatina-300g-e-coqueteleira-incolor-brinde/p?skuid=1258",
-        FIGURA: "https://lojamaxtitanium.vtexassets.com/arquivos/ids/158059-600-0/MAX-Imagem_Coque-Creatina-1.jpg?v=638543956690900000",
-        PRECO_ANTERIOR: "R$ 110,90",
-        PRECO_PRINCIPAL: "R$  73,50",
-        PARCELAMENTO: "2x de R$ 36,75",
-        PRECO_PIX: "R$ 71,30"
-    })
-
     return (
         <Paper 
             sx={{ 

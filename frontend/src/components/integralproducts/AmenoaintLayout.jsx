@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Boxproduct from '../Boxproduct';
+import {Boxproduct} from '../Boxproduct';
 //import amenoacidopages from './amenoacidopages';
 import classes from "../maxproducts/Pages.module.css";
 import Box from '@mui/material/Box';
