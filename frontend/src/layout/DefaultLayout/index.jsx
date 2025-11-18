@@ -1,3 +1,4 @@
+import { useSearchParams } from "react-router-dom";
 import { Box, Checkbox, Fab, FormControlLabel, TextField } from "@mui/material";
 import Model from "../../components/Model";
 import Analiseprecos from "../../components/Analiseprecos";
@@ -34,10 +35,22 @@ CustomTabPanel.propTypes = {
 
 
 export function DefaultLayout(){
+    const [searchParams, setSearchParams] = useSearchParams();
     const [openModel, setOpenModel] = React.useState(false);
     const [growhProducts, setGrowhProducts] = React.useState([]);
     const [maxProducts, setMaxProducts] = React.useState([]);
     const [integraProducts, setIntegraProducts] = React.useState([]);
+
+    const brands = searchParams.get("brands")?.split(",") ?? [];
+
+    function handleChangeCheckbox(value) {
+        const newList = brands.includes(value)
+        ? brands.filter((v) => v !== value)
+        : [...brands, value];
+        setSearchParams({
+        brands: newList.join(","),
+        });
+    };
 
   
     return <Box
@@ -51,18 +64,35 @@ export function DefaultLayout(){
 
         <Box display={'flex'} sx={{ flex: 1 }} mt={2}>
             <Box display='flex' flexDirection={'column'} p={2} gap={2} >
-                <FormControlLabel
-                    label="Growht"
-                    control={<Checkbox  />}
+            <FormControlLabel
+                label="Growth"
+                control={
+                <Checkbox
+                    checked={brands.includes("GROWTH")}
+                    onChange={() => handleChangeCheckbox("GROWTH")}
                 />
-                <FormControlLabel
-                    label="Max"
-                    control={<Checkbox  />}
+                }
+            />
+
+            <FormControlLabel
+                label="Max"
+                control={
+                <Checkbox
+                    checked={brands.includes("MAX")}
+                    onChange={() => handleChangeCheckbox("MAX")}
                 />
-                <FormControlLabel
-                    label="Integralmedica"
-                    control={<Checkbox  />}
+                }
+            />
+
+            <FormControlLabel
+                label="Integralmedica"
+                control={
+                <Checkbox
+                    checked={brands.includes("INTEGRALMEDICA")}
+                    onChange={() => handleChangeCheckbox("INTEGRALMEDICA")}
                 />
+                }
+            />
 
             </Box>
             <Outlet />

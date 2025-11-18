@@ -8,16 +8,25 @@ export async function findAminoacidos(
 ) {
   const findAminoacidosQuerySchema = z.object({
     page: z.coerce.number().min(1).default(1),
-    brands: z
-      .array(z.enum(['GROWTH', 'INTEGRALMEDICA', 'MAX']))
-      .default(['GROWTH', 'INTEGRALMEDICA', 'MAX']),
+    brands: z.preprocess(
+      (value) => {
+        if (typeof value === 'string') {
+          return value.split(',').map((v) => v.toUpperCase())
+        }
+
+        return undefined
+      },
+      z
+        .array(z.enum(['GROWTH', 'INTEGRALMEDICA', 'MAX']))
+        .default(['GROWTH', 'INTEGRALMEDICA', 'MAX']),
+    ),
   })
 
   const { page, brands } = findAminoacidosQuerySchema.parse(request.query)
 
   const productRepository = new ProductRepository()
 
-  const products = await productRepository.searchManyByCategory({
+  const { products, pages } = await productRepository.searchManyByCategory({
     page,
     brands,
     category: 'AMINOACIDOS',
@@ -25,5 +34,6 @@ export async function findAminoacidos(
 
   return reply.status(200).send({
     products,
+    pages,
   })
 }

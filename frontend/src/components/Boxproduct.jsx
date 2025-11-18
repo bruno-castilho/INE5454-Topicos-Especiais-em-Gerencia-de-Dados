@@ -1,91 +1,32 @@
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
+import { Button, Card, CardActions, CardContent, CardMedia } from '@mui/material';
+import {ArrowForward} from '@mui/icons-material';
 import Typography from '@mui/material/Typography';
 
 export function Boxproduct(props) {
-
     const { product } = props
     return (
-        <Paper 
-            sx={{ 
-                p: 1, 
-                borderRadius: 0, 
-                maxWidth: 250,                
-            }}>
-        <Box>
-            <Typography 
-                component={"div"} 
-                sx={{ 
-                   display: "flex",
-                   //flexDirection: "column",
-                   justifyContent: "center",
-                   alignItems: "center",
-                   textAlign: "center",
-                
-                }}
-            >
-                <img
-                    src={product.FIGURA}
-                    width={100}
-                    height={95}
-                />
-            </Typography>
-        </Box>
-        <Box>
-            <Typography
+        <Card sx={{ width: 345, height: 400 }}>
+            <CardMedia
+                component="img"
+                image={product.imageUrl}
+                alt={product.title}
                 sx={{
-                    fontSize: ".8rem",
-                    fontWeight: 600,
-                    fontFamily: "Afacad Flux, sans-serif",
-                    //textAlign: "justify",
-                    //width: 225,
+                    height: 230,
+                    width: '100%',
+                    objectFit: 'contain',
                 }}
-            >
-                {product.TITULO}
-            </Typography>
-        </Box>
-        <Box>
-            <p>Preço:</p>
-            <Typography
-                 sx={{
-                    fontSize: ".8rem",
-                    fontFamily: "Afacad Flux, serif",
-                    fontWeight: 600,
-                    //textAlign: "center",                        
-                    //"@media (max-width: 800px)": { color: `white`, },
-                    //"@media (max-width: 600px)": { color: `${secudary}`, },
-                }}
-            >
-                {product.PRECO_PRINCIPAL}
-            </Typography>
-        </Box>
-        <Box>
-            <p>Outras formas de pagamentos:</p>
-            <Typography
-                 sx={{
-                    fontSize: ".8rem",
-                    fontFamily: "Afacad Flux, serif",
-                    fontWeight: 600,
-                    //textAlign: "center",                        
-                    //"@media (max-width: 800px)": { color: `white`, },
-                    //"@media (max-width: 600px)": { color: `${secudary}`, },
-                }}
-            >
-                {product.PARCELAMENTO}
-            </Typography>
-            <Typography
-                 sx={{
-                    fontSize: ".8rem",
-                    fontFamily: "Afacad Flux, serif",
-                    fontWeight: 600,
-                    //textAlign: "center",                        
-                    //"@media (max-width: 800px)": { color: `white`, },
-                    //"@media (max-width: 600px)": { color: `${secudary}`, },
-                }}
-            >
-              NO PIX:   {product.PRECO_PIX}
-            </Typography>
-        </Box>
-        </Paper>
+            />
+            <CardContent>
+                <Typography gutterBottom variant="subtitle1" component="h3">
+                    {product.title}
+                </Typography>
+                <Typography variant="subtitle2" component="h3">
+                    <strong>Preço: {product.price}</strong>
+                </Typography>
+            </CardContent>
+            <CardActions >
+                <Button size="small" endIcon={<ArrowForward />} onClick={() => window.open(product.link, '_blank')}>IR PARA PRODUTO</Button>
+            </CardActions>
+        </Card>
     );
 }

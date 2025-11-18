@@ -15,15 +15,28 @@ export class ProductRepository {
   }) {
     const { brands, category, page } = params
 
-    const products = await prisma.product.findMany({
-      where: {
-        category,
-        brand: { in: brands },
-      },
-      take: 10,
-      skip: (page - 1) * 10,
-    })
+    const pageSize = 10
 
-    return products
+    const [total, products] = await Promise.all([
+      prisma.product.count({
+        where: {
+          category,
+          brand: { in: brands },
+        },
+      }),
+
+      prisma.product.findMany({
+        where: {
+          category,
+          brand: { in: brands },
+        },
+        take: pageSize,
+        skip: (page - 1) * pageSize,
+      }),
+    ])
+
+    const pages = Math.ceil(total / pageSize)
+
+    return { products, pages }
   }
 }
