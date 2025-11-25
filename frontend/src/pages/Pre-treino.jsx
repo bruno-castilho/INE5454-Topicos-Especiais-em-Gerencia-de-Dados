@@ -1,55 +1,75 @@
-import {  Box, Grid, Pagination } from "@mui/material";
-import { Boxproduct } from "../components/Boxproduct";
+import { Box, Grid, Pagination, Skeleton } from '@mui/material'
+import { Boxproduct } from '../components/Boxproduct'
 import { useQuery } from '@tanstack/react-query'
-import {findPretreino} from '../api/find-pretreino'
-import { useSearchParams } from "react-router-dom";
-import z from "zod";
+import { findPretreino } from '../api/find-pretreino'
+import { useSearchParams } from 'react-router-dom'
+import z from 'zod'
 
+export function Pretreino() {
+  const [searchParams, setSearchParams] = useSearchParams()
 
-export function Pretreino(){
-  const [searchParams, setSearchParams] = useSearchParams();
-
-  const brands = searchParams.get("brands")?.split(",").filter((brand)=> brand !== '');
+  const brands = searchParams
+    .get('brands')
+    ?.split(',')
+    .filter((brand) => brand !== '')
   const page = z.coerce.number().parse(searchParams.get('page') ?? '1')
 
   const { data, isLoading } = useQuery({
     queryKey: ['pretreino', page, brands?.length === 0 ? undefined : brands],
     queryFn: () =>
-        findPretreino({
-            page,
-            brands: brands?.length === 0 ? undefined : brands
-        }),
+      findPretreino({
+        page,
+        brands: brands?.length === 0 ? undefined : brands,
+      }),
   })
 
-    function handlePagination(_, currentPage) {
-        setSearchParams((state) => {
-            state.set('page', currentPage.toString())
-            return state
-        })
-     }
+  function handlePagination(_, currentPage) {
+    setSearchParams((state) => {
+      state.set('page', currentPage.toString())
+      return state
+    })
+  }
 
-
-
-    return <Box>
-        <Grid sx={{ flexGrow: 1, mt: 0.1 }} container spacing={2}>
-            <Grid item xs={12}>
-            <Grid container justifyContent="center" spacing={2}>
-                {data?.products.map((product, index) => {
+  return (
+    <Box display="flex" flexDirection={'column'} sx={{ width: '100%' }} mt={2}>
+      <Grid sx={{ flexGrow: 1, mt: 0.1 }} container spacing={2}>
+        <Grid item xs={12}>
+          <Grid container justifyContent="center" spacing={2}>
+            {!isLoading &&
+              data?.products.map((product, index) => {
                 return (
-                    <Grid key={index} item sm={6} md={4}>
+                  <Grid key={index} item sm={6} md={4}>
                     <Boxproduct
-                        primery={"#121313ff"}
-                        secudary={"#0F9BF2"}
-                        product={product}
+                      primery={'#121313ff'}
+                      secudary={'#0F9BF2'}
+                      product={product}
                     />
-                    </Grid>
-                );
-                })}
-            </Grid>
-            </Grid>
+                  </Grid>
+                )
+              })}
+
+            {isLoading && (
+              <Grid item sm={6} md={4}>
+                <Skeleton
+                  variant="rectangular"
+                  animation="wave"
+                  width={345}
+                  height={400}
+                />
+              </Grid>
+            )}
+          </Grid>
         </Grid>
-        <Box display='flex' justifyContent='center' mt={2} mb={2} width='100%'>
-            <Pagination count={data?.pages} color="secondary" disabled={isLoading} page={page} onChange={handlePagination}/>
-        </Box>
+      </Grid>
+      <Box display="flex" justifyContent="center" mt={2} mb={2} width="100%">
+        <Pagination
+          count={data?.pages}
+          color="secondary"
+          disabled={isLoading}
+          page={page}
+          onChange={handlePagination}
+        />
+      </Box>
     </Box>
+  )
 }

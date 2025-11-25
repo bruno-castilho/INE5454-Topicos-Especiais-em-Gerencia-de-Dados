@@ -1,0 +1,100 @@
+[
+    {
+        "TITULO": "Cafeína (200MG) 60 caps - Growth Supplements",
+        "LINK": "https://www.gsuplementos.com.br/cafeina-60-caps-200mg-growth-supplements-thermogenico-p987894",
+        "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/cafe-na-200mg-60-caps-growth-supplements-termog-nico.jpg",
+        "PRECO_PRINCIPAL": "R$35,44",
+        "PARCELAMENTO": "Até 6x de R$5,91",
+        "PRECO_PIX": "R$31,90",
+        "OFF": "10% OFF",
+        "BENEFICIOS": [
+            "Prevenção Da Fadiga",
+            "Termogenico",
+            "Aumento do desempenho nos treinos"
+        ]
+    },
+    {
+        "TITULO": "Cafeína (200MG) 120 caps - Growth Supplements",
+        "LINK": "https://www.gsuplementos.com.br/cafeina-200mg-120-caps-growth-supplements-thermogenico-p987897",
+        "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/cafe-na-200mg-120-caps-growth-supplements-termog-nico.png",
+        "PRECO_PRINCIPAL": "R$64,33",
+        "PARCELAMENTO": "Até 6x de R$10,72",
+        "PRECO_PIX": "R$57,90",
+        "OFF": "10% OFF",
+        "BENEFICIOS": [
+            "Prevenção Da Fadiga",
+            "Termogenico",
+            "Aumento do desempenho nos treinos"
+        ]
+    },
+    {
+        "TITULO": "CAFEÍNA 100MG 120COMP - GROWTH SUPPLEMENTS",
+        "LINK": "https://www.gsuplementos.com.br/cafeina-100mg-120comp-growth-supplements",
+        "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/cafe-na-100mg-120comp-growth-supplements-1.jpg",
+        "PRECO_PRINCIPAL": "R$31,00",
+        "PARCELAMENTO": "Até 6x de R$5,17",
+        "PRECO_PIX": "R$27,90",
+        "OFF": "10% OFF",
+        "BENEFICIOS": [
+            "Prevenção Da Fadiga",
+            "Termogenico",
+            "Aumento do desempenho nos treinos"
+        ]
+    },
+    {
+        "TITULO": "Óleo de Cártamo + Coco + Chia + Cromo + Vit. E (75 caps) - Growth Supplements",
+        "LINK": "https://www.gsuplementos.com.br/oleo-de-cartamo-coco-chia-cromo-vit-e-75-caps-growth-supplements-p987615",
+        "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/leo-de-c-rtamo-coco-chia-cromo-vit-e-75-caps-growth-supplements.jpg",
+        "PRECO_PRINCIPAL": "R$34,33",
+        "PARCELAMENTO": "Até 6x de R$5,72",
+        "PRECO_PIX": "R$30,90",
+        "OFF": "10% OFF",
+        "BENEFICIOS": [
+            "Termogenico Sem Cafeina",
+            "Não Atrapalha O Sono",
+            "Termogenico 100% Seguro"
+        ]
+    },
+    {
+        "TITULO": "CAFEÍNA 200MG 120COMP - GROWTH SUPPLEMENTS",
+        "LINK": "https://www.gsuplementos.com.br/cafeina-200mg-120comp-growth-supplements",
+        "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/cafe-na-200mg-120comp-growth-supplements-1.jpg",
+        "PRECO_PRINCIPAL": "R$55,44",
+        "PARCELAMENTO": "Até 6x de R$9,24",
+        "PRECO_PIX": "R$49,90",
+        "OFF": "10% OFF",
+        "BENEFICIOS": [
+            "Prevenção Da Fadiga",
+            "Termogenico",
+            "Aumento do desempenho nos treinos"
+        ]
+    },
+    {
+        "TITULO": "L-Carnitina Líquida 2000 - 420ml - Growth Supplements",
+        "LINK": "https://www.gsuplementos.com.br/l-carnitina-liquida-2000-420-ml",
+        "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/l-carnitina-l-quida-2200-420ml-growth-supplements-2.png",
+        "PRECO_PRINCIPAL": "R$22,11",
+        "PARCELAMENTO": "Até 4x de R$5,53",
+        "PRECO_PIX": "R$19,90",
+        "OFF": "10% OFF",
+        "BENEFICIOS": [
+            "Com sabor para melhor experiência",
+            "Definição muscular",
+            "Melhora o rendimento em resistência"
+        ]
+    },
+    {
+        "TITULO": "Gengibre em po 250gr - Growth Supplements",
+        "LINK": "https://www.gsuplementos.com.br/gengibre-em-po-250gr-growth-supplements-p987891",
+        "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/gengibre-em-po-250gr-growth-supplements-1.jpg",
+        "PRECO_PRINCIPAL": "R$27,66",
+        "PARCELAMENTO": "Até 5x de R$5,53",
+        "PRECO_PIX": "R$24,90",
+        "OFF": "10% OFF",
+        "BENEFICIOS": [
+            "Detox De Verdade",
+            "Reduz retenção corporal",
+            "Anti inflamatório natural"
+        ]
+    }
+]

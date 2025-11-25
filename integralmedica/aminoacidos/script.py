@@ -2,6 +2,8 @@ import requests  # para requisições http
 import json  # para gerar JSON a partir de objetos do Python
 from bs4 import BeautifulSoup  # extrair dados de HTML
 
+import os
+
 
 requisicaoDePagina = requests.get('https://www.integralmedica.com.br/aminoacidos')
 
@@ -107,7 +109,11 @@ for produto in produtos:
    
 
 
-with open('produtos.json', 'w', encoding='utf-8') as arquivo:
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+path_arquivo = os.path.join(BASE_DIR, "produtos.json")
+
+with open(path_arquivo, 'w', encoding='utf-8') as arquivo:
     json.dump(resposta, arquivo, indent=4, ensure_ascii=False)
 
 print("Created Json File")
+

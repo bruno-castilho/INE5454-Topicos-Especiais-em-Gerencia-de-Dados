@@ -1,0 +1,47 @@
+[
+    {
+        "TITULO": "Therma Pro Hardcore ",
+        "LINK": "https://www.integralmedica.com.br/therma-pro/p",
+        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/165934-500-auto?v=638336636376300000&width=500&height=auto&aspect=true",
+        "PRECO_ANTERIOR": "R$59,90",
+        "PRECO_PRINCIPAL": "R$43,13",
+        "PARCELAMENTO": "",
+        "OFF": "28%",
+        "BENEFICIOS": [
+            "Rápida Absorção",
+            "Queima de Gordura",
+            "Aumento de Energia",
+            "Aumento de Resistência"
+        ],
+        "DESCRICAO": "Cafeína, estabilizante celulose microcristalina, lubrificante estereato de magnésio, antiumectante dióxido de silício,gelificante gelatina e corantes dióxido de titânio e vermelho allura Ac. NÃO CONTÉM GLÚTEN.",
+        "TAMANHOS": [
+            "60 Cápsulas ",
+            "120 Cápsulas "
+        ],
+        "SABORES": [
+            "Neutro "
+        ]
+    },
+    {
+        "TITULO": "Lipo Dry ",
+        "LINK": "https://www.integralmedica.com.br/termogenico-lipo-dry/p",
+        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/168406-500-auto?v=638990055472670000&width=500&height=auto&aspect=true",
+        "PRECO_ANTERIOR": "R$119,90",
+        "PRECO_PRINCIPAL": "R$71,94",
+        "PARCELAMENTO": "",
+        "OFF": "40%",
+        "BENEFICIOS": [
+            "Queima de Gordura",
+            "Mais Energia",
+            "Aumento da Termogênese",
+            "Melhora do Metabolismo Energético"
+        ],
+        "DESCRICAO": "Café verde em pó, cafeína, extrato de laranja moro (Citrus sinensis (L.) Osbeck), picolinato de cromo, gelificante gelatina, estabilizantes celulose microcristalina e polivinilpirrolidona e corantes carvão vegetal e vermelho allura Ac. NÃO CONTÉM GLÚTEN.",
+        "TAMANHOS": [
+            "60 Cápsulas "
+        ],
+        "SABORES": [
+            "Sem Sabor "
+        ]
+    }
+]

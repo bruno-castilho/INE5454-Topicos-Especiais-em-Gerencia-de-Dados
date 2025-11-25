@@ -2,6 +2,8 @@ import requests  # para requisições http
 import json  # para gerar JSON a partir de objetos do Python
 from bs4 import BeautifulSoup  # extrair dados de HTML
 
+import os
+
 
 requisicaoDePagina = requests.get('https://www.integralmedica.com.br/pre-treino')
 
@@ -41,6 +43,8 @@ for produto in produtos:
     
     spanPrecoPrincipal = produto.find('span', {'class': 'vtex-product-price-1-x-sellingPriceValue'})
     precoPrincipal = spanPrecoPrincipal.get_text(strip=True).replace('\xa0', ' ') if spanPrecoPrincipal else None
+
+    if(not precoPrincipal): continue
     
     spanParcelamento = produto.find("span", {"class": 'vtex-product-price-1-x-installments'})
     parcelamento = spanParcelamento.get_text(strip=True).replace('\xa0', ' ') if spanParcelamento else None
@@ -88,6 +92,8 @@ for produto in produtos:
     
         sabores.append(option)
 
+
+
     dados = {
         'TITULO': titulo,
         'LINK': link,
@@ -107,7 +113,11 @@ for produto in produtos:
    
 
 
-with open('produtos.json', 'w', encoding='utf-8') as arquivo:
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+path_arquivo = os.path.join(BASE_DIR, "produtos.json")
+
+with open(path_arquivo, 'w', encoding='utf-8') as arquivo:
     json.dump(resposta, arquivo, indent=4, ensure_ascii=False)
 
 print("Created Json File")
+

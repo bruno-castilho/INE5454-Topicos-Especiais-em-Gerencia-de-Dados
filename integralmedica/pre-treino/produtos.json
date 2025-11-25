@@ -4,9 +4,9 @@
         "LINK": "https://www.integralmedica.com.br/huger-pre-treino-320g/p",
         "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/166836-500-auto?v=638573546480570000&width=500&height=auto&aspect=true",
         "PRECO_ANTERIOR": "R$159,90",
-        "PRECO_PRINCIPAL": "R$110,33",
-        "PARCELAMENTO": "em até2x deR$55,16",
-        "OFF": "31%",
+        "PRECO_PRINCIPAL": "R$95,94",
+        "PARCELAMENTO": "",
+        "OFF": "40%",
         "BENEFICIOS": [
             "Mais Energia",
             "Vasodilatação",
@@ -28,9 +28,9 @@
         "LINK": "https://www.integralmedica.com.br/beta-alanina-em-po-123g/p",
         "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/165311-500-auto?v=638203653917000000&width=500&height=auto&aspect=true",
         "PRECO_ANTERIOR": "R$64,90",
-        "PRECO_PRINCIPAL": "R$49,97",
+        "PRECO_PRINCIPAL": "R$45,43",
         "PARCELAMENTO": "",
-        "OFF": "23%",
+        "OFF": "30%",
         "BENEFICIOS": [
             "Diminuição da Fadiga Muscular",
             "Melhora a Performance",
@@ -46,29 +46,27 @@
         ]
     },
     {
-        "TITULO": "Booster Energético Pré-Treino Unitário ",
-        "LINK": "https://www.integralmedica.com.br/booster-energetico-pre-treino-unitario/p",
-        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/166785-500-auto?v=638568271565670000&width=500&height=auto&aspect=true",
-        "PRECO_ANTERIOR": null,
-        "PRECO_PRINCIPAL": "R$10,90",
+        "TITULO": "Huger Pré-Treino 160g ",
+        "LINK": "https://www.integralmedica.com.br/huger-pre-treino-160g/p",
+        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/166835-500-auto?v=638573542040700000&width=500&height=auto&aspect=true",
+        "PRECO_ANTERIOR": "R$99,90",
+        "PRECO_PRINCIPAL": "R$59,94",
         "PARCELAMENTO": "",
-        "OFF": "",
+        "OFF": "40%",
         "BENEFICIOS": [
-            "Aumento de Energia",
-            "Aumento do Foco Mental",
-            "Melhora da Performance",
-            "Zero Açúcar"
+            "Mais Energia",
+            "Vasodilatação",
+            "Melhora de Performance",
+            "Mais Força"
         ],
-        "DESCRICAO": "Água gaseificada taurina, bitartarato de colina, cafeína, nicotinamida, cloridrato de piridoxina, D-pantotenato de cálcio, cianocobalamina, acidulante ácido cítrico, aromatizantes, regulador de acidez citrato de sódio, conservadores benzoato de sódio e sorbato de potássio, edulcorante sucralose e corantes caramelo IV e amarelo crepúsculo. NÃO CONTÉM GLÚTEN. CONTÉM AROMATIZANTE SINTÉTICO IDÊNTICO AO NATURAL. COLORIDO ARTIFICIALMENTE.",
+        "DESCRICAO": "Beta-alanina, L-arginina, taurina, L-tirosina, cafeína, bitartarato de colina, nicotinamida, cloridrato de piridoxina, D-pantotenato de cálcio, cianocobalamina, acidulante ácido cítrico, aromatizantes, antiumectante dióxido de silício, edulcorante sucralose e corante bordeaux S",
         "TAMANHOS": [
-            "1 Unidade "
+            "160 g "
         ],
         "SABORES": [
             "Apple Dream (Indisponível)",
-            "Energy Drink ",
-            "Guaraná (Indisponível)",
-            "Purple Blast (Indisponível)",
-            "Red Lemonade (Indisponível)"
+            "Blue Razz (Indisponível)",
+            "Bubble Gum "
         ]
     }
 ]

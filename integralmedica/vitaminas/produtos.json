@@ -1,0 +1,91 @@
+[
+    {
+        "TITULO": "ZMA Testo Booster ",
+        "LINK": "https://www.integralmedica.com.br/zma-60-capsulas/p",
+        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/165379-500-auto?v=638203752293230000&width=500&height=auto&aspect=true",
+        "PRECO_ANTERIOR": "R$49,90",
+        "PRECO_PRINCIPAL": "R$35,93",
+        "PARCELAMENTO": "",
+        "OFF": "28%",
+        "BENEFICIOS": [
+            "Auxilia no Funcionamento Muscular",
+            "Auxilia na Síntese de Proteínas",
+            "Favorece Produção de Testosterona",
+            "Recuperação Muscular"
+        ],
+        "DESCRICAO": "Óxido de magnésio, ácido aspártico, bisglicinato de zinco, cloridrato de piridoxina, estabilizante celulose microcristalina, lubrificante estearato de magnésio e antiumectante dióxido de silício. Cápsula de gelatina: geleificante gelatina, corantes: inorgânico dióxido de titânio e artificiais azul brilhante FCF e carmosina NÃO CONTÉM GLÚTEN COLORIDO ARTIFICIALMENTE",
+        "TAMANHOS": [
+            "60 cápsulas "
+        ],
+        "SABORES": [
+            "Sem sabor "
+        ]
+    },
+    {
+        "TITULO": "Multivitamínico VitaPure Super ",
+        "LINK": "https://www.integralmedica.com.br/vitapure-super/p",
+        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/165843-500-auto?v=638316035914130000&width=500&height=auto&aspect=true",
+        "PRECO_ANTERIOR": "R$89,90",
+        "PRECO_PRINCIPAL": "R$62,93",
+        "PARCELAMENTO": "",
+        "OFF": "30%",
+        "BENEFICIOS": [
+            "Saúde Muscular",
+            "Melhora do Desempenho Físico",
+            "Super Concentrado",
+            "Auxilia na Imunidade"
+        ],
+        "DESCRICAO": "Mix de vitaminas e minerais: (fosfato de cálcio dibásico diidratado, fosfato de magnésio dibásico, óxido de magnésio, ácido ascórbico, nicotinamida, pirofosfato férrico, acetato de DL-alfatocoferila, óxido de zinco, D-pantotenato de cálcio, cloridrato de piridoxina, riboflavina, tiamina mononitrato, sulfato de manganês, acetato de retinol, sulfato cúprico, ácido N-pteroil-L-glutâmico, iodeto de potássio, selenito de sódio, fitomenadiona, picolinato de cromo, molibdato de sódio diidratado, D-biotina, colecalciferol, cianocobalamina, agente de massa celulose microcristalina, antiumectante estearato de magnésio e dióxido de silício), glaceantes hidroxipropilmetilcelulose e hidroxipropilcelulose, lubrificante talco e corantes dióxido de titânio, óxido de ferro amarelo, amarelo crepúsculo FCF e vermelho allura Ac. e NÃO CONTÉM GLÚTEN.",
+        "TAMANHOS": [
+            "60 tabletes "
+        ],
+        "SABORES": [
+            "Neutro "
+        ]
+    },
+    {
+        "TITULO": "Ômega 3 ",
+        "LINK": "https://www.integralmedica.com.br/omega-3-integralmedica/p",
+        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/165844-500-auto?v=638316036287300000&width=500&height=auto&aspect=true",
+        "PRECO_ANTERIOR": "R$119,90",
+        "PRECO_PRINCIPAL": "R$79,13",
+        "PARCELAMENTO": "",
+        "OFF": "34%",
+        "BENEFICIOS": [
+            "Saúde Cardiovascular",
+            "Ação Antioxidante",
+            "Reforça a Memória",
+            "Recuperação Muscular"
+        ],
+        "DESCRICAO": "Óleo de peixe, DL alfatocoferol (vitamina E), cápsula: água purificada, gelificante gelatina e umectante glicerina NÃO CONTÉM GLÚTEN ALÉRGICOS: CONTÉM DERIVADOS DE PEIXE PESSOAS ALÉRGICAS A PEIXES E CRUSTÁCEOS DEVEM EVITAR O CONSUMO DESTE PRODUTO.",
+        "TAMANHOS": [
+            "60 Cápsulas ",
+            "120 Cápsulas "
+        ],
+        "SABORES": [
+            "Neutro "
+        ]
+    },
+    {
+        "TITULO": "COQ10 Ômega 3 ",
+        "LINK": "https://www.integralmedica.com.br/super-omega-3-com-coenzima-q10/p",
+        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/167607-500-auto?v=638729898237430000&width=500&height=auto&aspect=true",
+        "PRECO_ANTERIOR": "R$169,90",
+        "PRECO_PRINCIPAL": "R$67,96",
+        "PARCELAMENTO": "",
+        "OFF": "60%",
+        "BENEFICIOS": [
+            "Saúde cardiovascular",
+            "Geração de energia",
+            "Alta concentração",
+            "Melhor recuperação"
+        ],
+        "DESCRICAO": "Óleo de peixe, óleo de girassol(Helianthus annuus L.), acetato de DL-alfatocoferila, coenzima Q10, água, gelificante gelatina, umectante glicerol, espessante cera de abelha e emulsificante lecitina e ALÉRGICOS: CONTÉM DERIVADOS DE PEIXE E SOJA. PODE CONTER PINOLI. NÃO CONTÉM GLÚTEN.",
+        "TAMANHOS": [
+            "60 Cápsulas "
+        ],
+        "SABORES": [
+            "Neutro "
+        ]
+    }
+]

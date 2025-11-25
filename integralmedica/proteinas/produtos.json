@@ -2,18 +2,45 @@
     {
         "TITULO": "Whey Protein Concentrado Pouch 900g ",
         "LINK": "https://www.integralmedica.com.br/whey-protein-concentrado-pouch-900g/p",
-        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/167958-500-auto?v=638748796011100000&width=500&height=auto&aspect=true",
+        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/166902-500-auto?v=638603879619100000&width=500&height=auto&aspect=true",
         "PRECO_ANTERIOR": "R$219,90",
-        "PRECO_PRINCIPAL": "R$139,90",
-        "PARCELAMENTO": "em até2x deR$69,95",
-        "OFF": "36%",
+        "PRECO_PRINCIPAL": "R$129,74",
+        "PARCELAMENTO": "em até2x deR$64,87",
+        "OFF": "41%",
         "BENEFICIOS": [
             "Ganho de Massa Muscular",
             "Aumento de Força",
             "Recuperação Muscular",
             "Manutenção da Massa Magra"
         ],
-        "DESCRICAO": "Proteína de soro do leite concentrada, aromatizante e edulcorante sucralose ALÉRGICOS: CONTÉM LEITE E DERIVADOS DE LEITE E SOJA* CONTÉM LACTOSE NÃO CONTÉM GLÚTEN *Ingrediente utilizado no processo de fabricação da proteína do soro de leite com função de instantaneização CONTÉM AROMATIZANTE SINTÉTICO IDÊNTICO AO NATURAL.",
+        "DESCRICAO": "Proteína de soro do leite concentrada, cacau em pó, aromatizante e edulcorante sucralose ALÉRGICOS: CONTÉM LEITE E DERIVADOS DE LEITE E SOJA* CONTÉM LACTOSE NÃO CONTÉM GLÚTEN *Ingrediente utilizado no processo de fabricação da proteína do soro de leite com função de instantaneização CONTÉM AROMATIZANTE SINTÉTICO IDÊNTICO AO NATURAL.",
+        "TAMANHOS": [
+            "900g "
+        ],
+        "SABORES": [
+            "Baunilha (Indisponível)",
+            "Chocolate ",
+            "Coco (Indisponível)",
+            "Cookies And Cream ",
+            "Morango ",
+            "Gelato Di Latte (Indisponível)"
+        ]
+    },
+    {
+        "TITULO": "Whey Protein Concentrado Pote 900g ",
+        "LINK": "https://www.integralmedica.com.br/whey-protein-concentrado-900g/p",
+        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/166746-500-auto?v=638563134359230000&width=500&height=auto&aspect=true",
+        "PRECO_ANTERIOR": "R$229,90",
+        "PRECO_PRINCIPAL": "R$140,24",
+        "PARCELAMENTO": "em até2x deR$70,12",
+        "OFF": "39%",
+        "BENEFICIOS": [
+            "Ganho de massa muscular",
+            "Aumento de força",
+            "Recuperação Muscular",
+            "Manutenção da Massa Magra"
+        ],
+        "DESCRICAO": "Proteína de soro do leite concentrada, aromatizante e edulcorante sucralose. ALÉRGICOS: CONTÉM DERIVADOS DE LEITE E SOJA. CONTÉM LACTOSE. NÃO CONTÉM GLÚTEN. *Ingrediente utilizado no processo de fabricação da proteína de soro do leite com função de instantaneização.",
         "TAMANHOS": [
             "900g "
         ],
@@ -23,13 +50,14 @@
             "Coco (Indisponível)",
             "Cookies And Cream ",
             "Morango ",
-            "Gelato Di Latte "
+            "Chocolate Maltado (Indisponível)",
+            "Gelato Di Latte (Indisponível)"
         ]
     },
     {
         "TITULO": "Protein Crisp Bar Ovomaltine® 12 und ",
         "LINK": "https://www.integralmedica.com.br/barra-de-proteina-ovomaltine-integralmedica/p",
-        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/168064-500-auto?v=638792220093170000&width=500&height=auto&aspect=true",
+        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/168364-500-auto?v=638950127514630000&width=500&height=auto&aspect=true",
         "PRECO_ANTERIOR": null,
         "PRECO_PRINCIPAL": "R$129,90",
         "PARCELAMENTO": "em até2x deR$64,95",
@@ -49,71 +77,13 @@
         ]
     },
     {
-        "TITULO": "Whey Protein Concentrado Pote 900g ",
-        "LINK": "https://www.integralmedica.com.br/whey-protein-concentrado-900g/p",
-        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/167276-500-auto?v=638675599900030000&width=500&height=auto&aspect=true",
-        "PRECO_ANTERIOR": "R$229,90",
-        "PRECO_PRINCIPAL": "R$147,14",
-        "PARCELAMENTO": "em até2x deR$73,57",
-        "OFF": "36%",
-        "BENEFICIOS": [
-            "Ganho de massa muscular",
-            "Aumento de força",
-            "Recuperação Muscular",
-            "Manutenção da Massa Magra"
-        ],
-        "DESCRICAO": "Proteína de soro do leite concentrada, aromatizante e edulcorante sucralose. ALÉRGICOS: CONTÉM DERIVADOS DE LEITE E SOJA. CONTÉM LACTOSE. NÃO CONTÉM GLÚTEN. *Ingrediente utilizado no processo de fabricação da proteína de soro do leite com função de instantaneização.",
-        "TAMANHOS": [
-            "900g "
-        ],
-        "SABORES": [
-            "Baunilha ",
-            "Chocolate ",
-            "Coco (Indisponível)",
-            "Cookies And Cream ",
-            "Morango ",
-            "Chocolate Maltado (Indisponível)",
-            "Gelato Di Latte "
-        ]
-    },
-    {
-        "TITULO": "Protein Crisp Bar 12 und ",
-        "LINK": "https://www.integralmedica.com.br/crisp-bar/p",
-        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/168220-500-auto?v=638887944654000000&width=500&height=auto&aspect=true",
-        "PRECO_ANTERIOR": "R$137,88",
-        "PRECO_PRINCIPAL": "R$99,27",
-        "PARCELAMENTO": "",
-        "OFF": "28%",
-        "BENEFICIOS": [
-            "Snack Proteico",
-            "Manutenção da Massa Muscular",
-            "Feito com Whey Protein",
-            "Baixo Sódio"
-        ],
-        "DESCRICAO": "BLEND PROTEICO [PROTEÍNA CONCENTRADA DO LEITE, PROTEÍNA CONCENTRADA DO SORO DE LEITE E PROTEÍNA HIDROLISADA (COLÁGENO)], PASTA DE AMENDOIM, COBERTURA SABOR CHOCOLATE AO LEITE, XAROPE DE MALTITOL, XAROPE DE FRUTOSE, FRUTO-OLIGOSSACARÍDEO, ÓLEO DE PALMA, CRISP ISOLADO DE SOJA, MIX DE VITAMINAS [VITAMINA A (PALMITATO DE RETINOL), VITAMINA D (COLECALCIFEROL), VITAMINA E (ACETATO DE TOCOFEROL), VITAMINA C (ÁCIDO ASCÓRBICO), VITAMINA B1 (TIAMINA MONONITRATO), VITAMINA B2 (RIBOFLAVINA), VITAMINA B6 (PIRIDOXINA), VITAMINA B12 (CIANOCOBALAMINA), VITAMINA H (BIOTINA), VITAMINA PP (NICOTINAMIDA), ÁCIDO FÓLICO E VITAMINA B5 (PANTOTENATO DE CÁLCIO)], MIX DE MINERAIS (SULFATO DE MANGANÊS, CROMO E SULFATO DE COBRE), CLORETO DE SÓDIO, GLICERINA (UMECTANTE), LECITINA DE SOJA (EMULSIFICANTE) AROMA IDÊNTICO AO NATURAL E SORBATO DE POTÁSSIO (CONSERVANTE). Contém derivados de leite e soja, e pode conter amendoim, avelã, castanha de cajú e castanha do Pará.",
-        "TAMANHOS": [
-            "12 Unidades "
-        ],
-        "SABORES": [
-            "Cookies And Cream ",
-            "Doce de Coco ",
-            "Peanut Butter ",
-            "Trufa de Avelã ",
-            "Churros c/ Doce de Leite (Indisponível)",
-            "Leite c/ Creme de Avelã ",
-            "Duo Crunch ",
-            "Creme de Coco ",
-            "Brownie de Chocolate (Indisponível)"
-        ]
-    },
-    {
         "TITULO": "Whey Protein Concentrado Pouch 1,8kg ",
         "LINK": "https://www.integralmedica.com.br/whey-protein-concentrado-pouch-1-8kg/p",
-        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/167627-500-auto?v=638800044857700000&width=500&height=auto&aspect=true",
+        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/167633-500-auto?v=638800045295700000&width=500&height=auto&aspect=true",
         "PRECO_ANTERIOR": "R$394,90",
-        "PRECO_PRINCIPAL": "R$272,48",
-        "PARCELAMENTO": "em até5x deR$54,49",
-        "OFF": "31%",
+        "PRECO_PRINCIPAL": "R$240,89",
+        "PARCELAMENTO": "em até4x deR$60,22",
+        "OFF": "39%",
         "BENEFICIOS": [
             "Ganho de Massa Muscular",
             "Aumento de Força",
@@ -132,13 +102,43 @@
         ]
     },
     {
+        "TITULO": "Protein Crisp Bar 12 und ",
+        "LINK": "https://www.integralmedica.com.br/crisp-bar/p",
+        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/168220-500-auto?v=638887944654000000&width=500&height=auto&aspect=true",
+        "PRECO_ANTERIOR": null,
+        "PRECO_PRINCIPAL": "R$129,90",
+        "PARCELAMENTO": "em até2x deR$64,95",
+        "OFF": "",
+        "BENEFICIOS": [
+            "Snack Proteico",
+            "Manutenção da Massa Muscular",
+            "Feito com Whey Protein",
+            "Baixo Sódio"
+        ],
+        "DESCRICAO": "BLEND PROTEICO [CASEINATO DE CÁLCIO, PROTEÍNA HIDROLISADA (COLÁGENO), PROTEÍNA ISOLADA DO SORO DE LEITE, PROTEÍNA CONCENTRADA DO LEITE, PROTEÍNA CONCENTRADA DO SORO DE LEITE], RECHEIO DE COCO, COBERTURA SABOR CHOCOLATE AO LEITE, XAROPE DE MALTITOL, XAROPE DE FRUTOSE, ÓLEO DE PALMA, FRUTO-OLIGOSSACARÍDEO, CRISP ISOLADO DE SOJA, MIX DE VITAMINAS [VITAMINA A (PALMITATO DE RETINOL), VITAMINA D (COLECALCIFEROL), VITAMINA E (ACETATO DE TOCOFEROL), VITAMINA C (ÁCIDO ASCÓRBICO), VITAMINA B1 (TIAMINA MONONITRATO), VITAMINA B2 (RIBOFLAVINA), VITAMINA B6 (PIRIDOXINA), VITAMINA B12 (CIANOCOBALAMINA), VITAMINA H (BIOTINA), VITAMINA PP (NICOTINAMIDA), ÁCIDO FÓLICO E VITAMINA B5 (PANTOTENATO DE CÁLCIO)], MIX DE MINERAIS (SULFATO DE MANGANÊS, CROMO E SULFATO DE COBRE), CLORETO DE SÓDIO, GLICERINA (UMECTANTE), LECITINA DE SOJA (EMULSIFICANTE), AROMA IDÊNTICO AO NATURAL E SORBATO DE POTÁSSIO (CONSERVANTE). Contém derivados de leite e soja, e pode conter amendoim, avelã, castanha de cajú e castanha do Pará.",
+        "TAMANHOS": [
+            "12 Unidades "
+        ],
+        "SABORES": [
+            "Cookies And Cream ",
+            "Doce de Coco ",
+            "Peanut Butter ",
+            "Trufa de Avelã ",
+            "Churros c/ Doce de Leite ",
+            "Leite c/ Creme de Avelã ",
+            "Duo Crunch ",
+            "Creme de Coco ",
+            "Brownie de Chocolate "
+        ]
+    },
+    {
         "TITULO": "MY WHEY – High quality protein powder 900g ",
         "LINK": "https://www.integralmedica.com.br/my-whey-po-pote/p",
-        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/168275-500-auto?v=638899344825670000&width=500&height=auto&aspect=true",
+        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/168393-500-auto?v=638983912087030000&width=500&height=auto&aspect=true",
         "PRECO_ANTERIOR": "R$167,89",
-        "PRECO_PRINCIPAL": "R$104,09",
-        "PARCELAMENTO": "em até2x deR$52,04",
-        "OFF": "38%",
+        "PRECO_PRINCIPAL": "R$109,13",
+        "PARCELAMENTO": "em até2x deR$54,56",
+        "OFF": "35%",
         "BENEFICIOS": [
             "Reposição Proteica",
             "Ganho de Massa Muscular",
@@ -160,9 +160,9 @@
         "LINK": "https://www.integralmedica.com.br/whey-protein-isolado-900g/p",
         "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/166764-500-auto?v=638800075562270000&width=500&height=auto&aspect=true",
         "PRECO_ANTERIOR": "R$419,90",
-        "PRECO_PRINCIPAL": "R$335,92",
-        "PARCELAMENTO": "em até6x deR$55,98",
-        "OFF": "20%",
+        "PRECO_PRINCIPAL": "R$314,92",
+        "PARCELAMENTO": "em até6x deR$52,48",
+        "OFF": "25%",
         "BENEFICIOS": [
             "Ganho de Massa Magra",
             "Recuperação Muscular",
@@ -176,31 +176,6 @@
         "SABORES": [
             "Baunilha ",
             "Chocolate ",
-            "Morango "
-        ]
-    },
-    {
-        "TITULO": "VO2 Whey Bar 12 unid ",
-        "LINK": "https://www.integralmedica.com.br/vo2-protein-bar/p",
-        "FIGURA": "https://integralmedica.vtexassets.com/arquivos/ids/165332-500-auto?v=638203668306000000&width=500&height=auto&aspect=true",
-        "PRECO_ANTERIOR": "R$70,68",
-        "PRECO_PRINCIPAL": "R$60,78",
-        "PARCELAMENTO": "",
-        "OFF": "14%",
-        "BENEFICIOS": [
-            "Ganho de Massa Magra",
-            "Manutenção de Massa Magra",
-            "Aporte Proteico",
-            "Alto Valor Biológico"
-        ],
-        "DESCRICAO": "CHOCOLATE:Blend proteico (proteína do leite concentrada, colágeno hidrolisado, proteína de soro do leite isolada e caseinato de cálcio), xarope de frutose, cobertura sabor de chocolate ao leite, óleo de palma, fruto-oligossacarídeo, cacau em pó, mix de vitaminas [vitamina C (ácido ascórbico), vitamina B3 (nicotinamida), vitamina E (acetato de tocoferol), vitamina B5 (pantotenato de cálcio), vitamina B2 (riboflavina), vitamina B6 (piridoxina), vitamina B1 (tiamina mononitrato), vitamina A (palmitato de retinol), vitamina B9 (ácido fólico), vitamina H (biotina), vitamina D (colecalciferol), vitamina B12 (cianocobalamina)], cloreto de sódio, mix de minerais [manganês (sulfato de manganês), cobre (sulfato de cobre), cromo (picolinato de cromo)], edulcorante xarope de maltitol, umectante glicerina, aromatizante, emulsificante lecitina de soja, conservador sorbato de potássio.",
-        "TAMANHOS": [
-            "12 Unidades "
-        ],
-        "SABORES": [
-            "Chocolate ",
-            "Coco ",
-            "Cookies And Cream ",
             "Morango "
         ]
     }

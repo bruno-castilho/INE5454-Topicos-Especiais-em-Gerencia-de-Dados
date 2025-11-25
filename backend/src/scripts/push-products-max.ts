@@ -5,6 +5,10 @@ import maxPreTreino from '../../../max/pre-treino/produtos.json'
 import maxProteinas from '../../../max/proteinas/produtos.json'
 import { ProductRepository } from '@/repositories/product-repository'
 
+import maxOutlet from '../../../max/outlet/produtos.json'
+import maxVitaminas from '../../../max/vitaminas/produtos.json'
+import maxTermogenicos from '../../../max/termogenicos/produtos.json'
+
 const prismaMaxAminoacidos: Prisma.ProductCreateInput[] = maxAminoacidos.map(
   (product) => {
     const priceString = product.PRECO_PIX.replace(/[^0-9,]+/g, '')
@@ -75,6 +79,57 @@ const prismaMaxProteinas: Prisma.ProductCreateInput[] = maxProteinas.map(
   },
 )
 
+const prismaMaxOutlet: Prisma.ProductCreateInput[] = maxOutlet.map(
+  (product) => {
+    const priceString = product.PRECO_PRINCIPAL.replace(/[^0-9,]+/g, '')
+
+    const price = parseFloat(priceString.replace(',', '.'))
+
+    return {
+      title: product.TITULO,
+      link: product.LINK,
+      imageUrl: product.FIGURA,
+      brand: 'MAX',
+      category: 'OUTLET',
+      price,
+    }
+  },
+)
+
+const prismaMaxVitaminas: Prisma.ProductCreateInput[] = maxVitaminas.map(
+  (product) => {
+    const priceString = product.PRECO_PRINCIPAL.replace(/[^0-9,]+/g, '')
+
+    const price = parseFloat(priceString.replace(',', '.'))
+
+    return {
+      title: product.TITULO,
+      link: product.LINK,
+      imageUrl: product.FIGURA,
+      brand: 'MAX',
+      category: 'VITAMINAS',
+      price,
+    }
+  },
+)
+
+const prismaMaxTermogenico: Prisma.ProductCreateInput[] = maxTermogenicos.map(
+  (product) => {
+    const priceString = product.PRECO_PRINCIPAL.replace(/[^0-9,]+/g, '')
+
+    const price = parseFloat(priceString.replace(',', '.'))
+
+    return {
+      title: product.TITULO,
+      link: product.LINK,
+      imageUrl: product.FIGURA,
+      brand: 'MAX',
+      category: 'TERMOGENICOS',
+      price,
+    }
+  },
+)
+
 async function main() {
   const productRepository = new ProductRepository()
 
@@ -83,6 +138,10 @@ async function main() {
     productRepository.createMany(prismaMaxCarboidratos),
     productRepository.createMany(prismaMaxPreTreino),
     productRepository.createMany(prismaMaxProteinas),
+
+    productRepository.createMany(prismaMaxTermogenico),
+    productRepository.createMany(prismaMaxVitaminas),
+    productRepository.createMany(prismaMaxOutlet),
   ])
 }
 

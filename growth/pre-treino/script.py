@@ -1,6 +1,6 @@
 import requests  # para requisições http
 import json  # para gerar JSON a partir de objetos do Python
-import re
+import os
 from bs4 import BeautifulSoup  # extrair dados de HTML
 import re
 
@@ -26,25 +26,27 @@ site = BeautifulSoup(conteudo, 'html.parser')
 
 #joga para a variável produtos todos os elementos "article", que é onde está cada produto
 
-produtos = site.find_all('div', {'class': 'cardprod'})
+produtos = site.find_all('div', {'class': 'card-wrapper'})
 
 resposta = []
 
 for produto in produtos:
     a = produto.find('a')
-    link = f'https://www.gsuplementos.com.br/{a["href"]}' if a else None
+    link = f'https://www.gsuplementos.com.br{a["href"]}' if a else None
     
     img = produto.find('img')
     figura = img['src']
 
-    h3 = produto.find('h3', {'class': 'cardprod-nomeProduto-t1'})
-    titulo = h3.get_text(strip=True)
+    card_name = produto.find('a', {'class': 'card__name'})
+    titulo = card_name.get_text(strip=True)
 
-    ul = produto.find('ul', {'class': 'cardProd-descricaoProduto'})
+    ul = produto.find('ul', {'class': 'characteristics'})
     lis = ul.find_all('li')
 
-    precoSpan = produto.find('span', {'class': 'cardprod-valor'})
-    offSpan = precoSpan.find('span')
+
+
+    precoSpan = produto.find('span', {'class': 'price'})
+    offSpan = produto.find('span', {'class':  'discount-percent'})
 
     off = offSpan.getText(strip=True)
     precoPix = precoSpan.getText(strip=True).replace(off, '')
@@ -53,7 +55,7 @@ for produto in produtos:
     for li in lis:
         beneficios.append(li.get_text(strip=True).replace('\xa0', ' '))
 
-    precoCartaoSpan = produto.find('span', {'class': 'cardprod-valorCartao'})
+    precoCartaoSpan = produto.find('p', {'class': 'card__prices-condition'})
     bs = precoCartaoSpan.find_all('b')
 
     precoCartao = bs[0].get_text(strip=True)
@@ -75,8 +77,10 @@ for produto in produtos:
 
     resposta.append(dados)
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+path_arquivo = os.path.join(BASE_DIR, "produtos.json")
 
-with open('produtos.json', 'w', encoding='utf-8') as arquivo:
+with open(path_arquivo, 'w', encoding='utf-8') as arquivo:
     json.dump(resposta, arquivo, indent=4, ensure_ascii=False)
 
 print("Created Json File")

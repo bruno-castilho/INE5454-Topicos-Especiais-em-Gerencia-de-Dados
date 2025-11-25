@@ -1,6 +1,6 @@
 import requests  # para requisições http
 import json  # para gerar JSON a partir de objetos do Python
-import re
+import os
 from bs4 import BeautifulSoup  # extrair dados de HTML
 import re
 
@@ -44,6 +44,8 @@ for produto in produtos:
 
     precoAnterior = spanPrecoAnterior.get_text(strip=True).replace('\xa0', ' ') if spanPrecoAnterior else None
     precoPrincipal = spanPrecoPrincipal.get_text(strip=True).replace('\xa0', ' ') if spanPrecoPrincipal else None
+
+    if(not precoPrincipal): continue
 
     parcelamentoDiv = produto.find("div", {"class": 'product-card__installments'})
     parcelamento = parcelamentoDiv.get_text(strip=True).replace('\xa0', ' ') if parcelamentoDiv else None
@@ -93,7 +95,11 @@ for produto in produtos:
 
 
 
-with open('produtos.json', 'w', encoding='utf-8') as arquivo:
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+path_arquivo = os.path.join(BASE_DIR, "produtos.json")
+
+with open(path_arquivo, 'w', encoding='utf-8') as arquivo:
     json.dump(resposta, arquivo, indent=4, ensure_ascii=False)
 
 print("Created Json File")
+

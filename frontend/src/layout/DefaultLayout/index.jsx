@@ -1,19 +1,14 @@
-import { useSearchParams } from "react-router-dom";
-import { Box, Checkbox, Fab, FormControlLabel, TextField } from "@mui/material";
-import Model from "../../components/Model";
-import Analiseprecos from "../../components/Analiseprecos";
-
-import { BrightnessHigh } from "@mui/icons-material";
-import React from "react";
-import { Outlet } from "react-router-dom";
-import PropTypes from "prop-types";
-import { Header } from "./Header";
-import { Footer } from "./Footer";
-
-
+import { useSearchParams, Outlet } from 'react-router-dom'
+import { Box, Checkbox, Divider, Fab, FormControlLabel } from '@mui/material'
+import PropTypes from 'prop-types'
+import { Header } from './Header'
+import { Footer } from './Footer'
+import { useState } from 'react'
+import { BarChart } from '@mui/icons-material'
+import { MetricsModel } from '../../components/MetricsModel'
 
 function CustomTabPanel(props) {
-  const { children, value, index, ...other } = props;
+  const { children, value, index, ...other } = props
   return (
     <div
       role="tabpanel"
@@ -24,120 +19,122 @@ function CustomTabPanel(props) {
     >
       {value === index && <Box sx={{ p: 3 }}>{children}</Box>}
     </div>
-  );
+  )
 }
 
 CustomTabPanel.propTypes = {
   children: PropTypes.node,
   index: PropTypes.number.isRequired,
   value: PropTypes.number.isRequired,
-};
+}
 
+export function DefaultLayout() {
+  const [openMetrics, setOpenMetrics] = useState(false)
 
-export function DefaultLayout(){
-    const [searchParams, setSearchParams] = useSearchParams();
-    const [openModel, setOpenModel] = React.useState(false);
-    const [growhProducts, setGrowhProducts] = React.useState([]);
-    const [maxProducts, setMaxProducts] = React.useState([]);
-    const [integraProducts, setIntegraProducts] = React.useState([]);
+  const [searchParams, setSearchParams] = useSearchParams()
+  const brands = searchParams.get('brands')?.split(',') ?? []
 
-    const brands = searchParams.get("brands")?.split(",") ?? [];
+  function handleChangeCheckbox(value) {
+    const newList = brands.includes(value)
+      ? brands.filter((v) => v !== value)
+      : [...brands, value]
+    setSearchParams({
+      brands: newList.join(','),
+    })
+  }
 
-    function handleChangeCheckbox(value) {
-        const newList = brands.includes(value)
-        ? brands.filter((v) => v !== value)
-        : [...brands, value];
-        setSearchParams({
-        brands: newList.join(","),
-        });
-    };
+  function handleOpenMetrics() {
+    setOpenMetrics((open) => !open)
+  }
 
-  
-    return <Box
+  return (
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        minHeight: '100vh',
+      }}
+    >
+      <Header />
+
+      <Box
+        display={'flex'}
+        sx={{ flex: 1, minWidth: '100vw', height: '100%' }}
+        gap={1}
+      >
+        <Box display="flex" flexDirection={'column'} p={2} gap={2}>
+          <FormControlLabel
+            label="Growth"
+            control={
+              <Checkbox
+                checked={brands.includes('GROWTH')}
+                onChange={() => handleChangeCheckbox('GROWTH')}
+              />
+            }
+          />
+
+          <FormControlLabel
+            label="Max"
+            control={
+              <Checkbox
+                checked={brands.includes('MAX')}
+                onChange={() => handleChangeCheckbox('MAX')}
+              />
+            }
+          />
+
+          <FormControlLabel
+            label="Integralmedica"
+            control={
+              <Checkbox
+                checked={brands.includes('INTEGRALMEDICA')}
+                onChange={() => handleChangeCheckbox('INTEGRALMEDICA')}
+              />
+            }
+          />
+        </Box>
+        <Divider orientation="vertical" flexItem />
+        <Outlet />
+      </Box>
+
+      <Box
+        sx={{
+          position: 'fixed',
+          bottom: '20px',
+          right: '20px',
+        }}
+      >
+        <Fab
+          onClick={handleOpenMetrics}
           sx={{
-             display: 'flex',
-            flexDirection: 'column',
-            minHeight: '100vh',
-        }}>
-
-        <Header/>
-
-        <Box display={'flex'} sx={{ flex: 1 }} mt={2}>
-            <Box display='flex' flexDirection={'column'} p={2} gap={2} >
-            <FormControlLabel
-                label="Growth"
-                control={
-                <Checkbox
-                    checked={brands.includes("GROWTH")}
-                    onChange={() => handleChangeCheckbox("GROWTH")}
-                />
-                }
-            />
-
-            <FormControlLabel
-                label="Max"
-                control={
-                <Checkbox
-                    checked={brands.includes("MAX")}
-                    onChange={() => handleChangeCheckbox("MAX")}
-                />
-                }
-            />
-
-            <FormControlLabel
-                label="Integralmedica"
-                control={
-                <Checkbox
-                    checked={brands.includes("INTEGRALMEDICA")}
-                    onChange={() => handleChangeCheckbox("INTEGRALMEDICA")}
-                />
-                }
-            />
-
-            </Box>
-            <Outlet />
-        </Box>
-        <Box
-            sx={{
-                position: "fixed",
-                bottom: "20px",
-                right: "20px",
-            }}
+            p: 2,
+            width: 50,
+            height: 50,
+            bgcolor: ` #0F9BF2`,
+            color: 'white',
+            boxShadow: '0px 0px 10px 0px rgba(0,0,0,0.5)',
+            '&:hover': {
+              color: '#0F9BF2',
+              // fontSize: "10px",
+              cursor: 'pointer',
+              transition: '0.3s ease-in',
+            },
+          }}
         >
-            <Fab
-                sx={{
-                    p: 2,
-                    width: 50,
-                    height: 50,
-                    bgcolor: ` #0F9BF2`,
-                    color: "white",
-                    boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.5)",
-                    "&:hover": {
-                        color: "#0F9BF2",
-                        //fontSize: "10px",
-                        cursor: "pointer",
-                        transition: "0.3s ease-in",
-                    },
-                }}
-            >
-                <BrightnessHigh
-                    sx={{ 
-                            fontSize: 25, 
-                        }} 
-                />
-            
-            </Fab>
-        </Box>
-        <Model 
-            openModel={openModel} 
-            setOpenModel={setOpenModel}
-        > 
-            <Analiseprecos  max={maxProducts} growh={growhProducts} intra={integraProducts} />
-        </Model>
+          <BarChart
+            sx={{
+              fontSize: 25,
+            }}
+          />
+        </Fab>
+      </Box>
 
-        <Footer 
-            primery={"#121313ff"}
-            secudary={"#0F9BF2"}
-        />
+      <MetricsModel
+        open={openMetrics}
+        handleOpen={handleOpenMetrics}
+      ></MetricsModel>
+
+      <Footer primery={'#121313ff'} secudary={'#0F9BF2'} />
     </Box>
+  )
 }

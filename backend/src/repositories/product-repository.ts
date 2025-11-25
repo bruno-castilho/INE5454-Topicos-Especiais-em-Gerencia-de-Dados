@@ -39,4 +39,34 @@ export class ProductRepository {
 
     return { products, pages }
   }
+
+  async avaragePricesByBrands(params: { brands: Brands[] }) {
+    const { brands } = params
+
+    const results = await prisma.product.groupBy({
+      by: ['category', 'brand'],
+      where: {
+        brand: {
+          in: brands,
+        },
+      },
+      _avg: {
+        price: true,
+      },
+    })
+
+    const averagePrices = results.reduce(
+      (acc, row) => {
+        if (!acc[row.brand]) acc[row.brand] = {}
+
+        acc[row.brand][row.category] = Number(row._avg.price!.toFixed(2))
+        return acc
+      },
+      {} as Record<string, Record<string, number>>,
+    )
+
+    return {
+      averagePrices,
+    }
+  }
 }

@@ -1,45 +1,5 @@
 [
     {
-        "TITULO": "100% Whey Refil 900G",
-        "LINK": "https://www.maxtitanium.com.br/100-whey-refil-900g/p?skuid=1495",
-        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/158636-600-0/100-whey-protein-max-titanium-refil-900g-baunilha-1.jpg?v=638834574933170000",
-        "PRECO_ANTERIOR": null,
-        "PRECO_PRINCIPAL": "R$ 138,90",
-        "PARCELAMENTO": "Até4xdeR$ 34,72",
-        "PRECO_PIX": "R$ 134,73",
-        "OFF": "3% OFF",
-        "REF": "Ref: PA.004.020.0073",
-        "DESCRICAO": "O 100% Whey Protein Concentrado Pote 900G da Max Titanium é a escolha ideal para quem busca uma proteína de alta qualidade para potencializar os seus objetivos de treino. Composto por proteína concentrada do soro do leite (WPC), este suplemento passa por um avançado processo de filtração que preserva nutrientes essenciais, como proteínas, lactose e minerais, enquanto reduz a quantidade de gordura e carboidratos. Cada porçãodose oferece até 20g de proteína, auxiliando no ganho de massa muscular, recuperação pós-treino e manutenção da massa magra.Desenvolvido com ingredientes cientificamente selecionados, este suplemento garante pureza, eficácia e segurança. Experimente o 100% Whey Protein Concentrado Pote 900G e descubra como maximizar seus resultados com um sabor incomparável.",
-        "BENEFICIOS": [
-            "Até 21g de Proteína por dose",
-            "Melhor sabor do mercado",
-            "Melhor custo-benefício",
-            "Fonte de aminoácidos essenciais",
-            "As proteínas auxiliam na formação dos músculos e ossos",
-            "Alto teor de proteínas"
-        ]
-    },
-    {
-        "TITULO": "Whey Pro 1Kg",
-        "LINK": "https://www.maxtitanium.com.br/whey-pro-1kg/p?skuid=123",
-        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157682-600-0/whey-pro-max-titanium-1kg-chocolate-1.jpg?v=638351515709130000",
-        "PRECO_ANTERIOR": null,
-        "PRECO_PRINCIPAL": "R$ 94,60",
-        "PARCELAMENTO": "Até3xdeR$ 31,53",
-        "PRECO_PIX": "R$ 91,76",
-        "OFF": "3% OFF",
-        "REF": "Ref: PA.004.001.0041",
-        "DESCRICAO": "Ideal para qualquer dieta fitness e programas de treinamento, a proteína do soro do leite, em inglês Whey Protein, é a proteína em pó mais popular disponível utilizada em suplementação alimentar e esportiva",
-        "BENEFICIOS": [
-            "15g de Proteína por doses",
-            "Melhor sabor do mercado",
-            "Melhor custo-benefício",
-            "Fonte de aminoácidos essenciais",
-            "As proteínas auxiliam na formação dos músculos e ossos",
-            "Alto teor de proteínas"
-        ]
-    },
-    {
         "TITULO": "Top Whey 3W + Performance 1,8Kg",
         "LINK": "https://www.maxtitanium.com.br/top-whey-3w-mais-performance-18kg-max-titanium/p?skuid=1536",
         "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157652-600-0/top-whey-3w-max-titanium-1.8kg-performance-baunilha-1.jpg?v=638351494629070000",
@@ -49,7 +9,7 @@
         "PRECO_PIX": "R$ 387,71",
         "OFF": "2% OFF",
         "REF": "Ref: PA.004.020.0084",
-        "DESCRICAO": "TOP WHEY 3W é o suplemento proteico mais premiado do Brasil! \nEssa fórmula exclusiva da Max Titanium contém alto teor de proteínas que auxiliam na formação dos músculos. \nComposto por três tipos de proteínas do soro do leite (Concentrada (WPC), Isolada (WPI) e Hidrolisada (WPH), suas matérias-primas possuem alta quantidade de aminoácidos, principalmente de BCAAs.\n A linha Mais Performance fornece de  31g a 32g de proteínas por porção, além de 11 vitaminas e 6 minerais.",
+        "DESCRICAO": "TOP WHEY 3W é o suplemento proteico mais premiado do Brasil! \nEssa fórmula exclusiva da Max Titanium contém alto teor de proteínas que auxiliam na formação dos músculos e ossos. \nComposto por três tipos de proteínas do soro do leite (Concentrada (WPC), Isolada (WPI) e Hidrolisada (WPH), suas matérias-primas possuem alta quantidade de aminoácidos, principalmente de BCAAs.\n A linha Mais Performance fornece de  31g a 32g de proteínas por porção, além de 11 vitaminas e 6 minerais.",
         "BENEFICIOS": [
             "Até 32g de Proteína por Porção",
             "Máxima Performance",
@@ -60,16 +20,54 @@
         ]
     },
     {
-        "TITULO": "Pack 2x Whey Pro 1Kg",
-        "LINK": "https://www.maxtitanium.com.br/pack-2x-whey-pro-1kg/p?skuid=1431",
-        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/158197-600-0/MAX-Imagem-Pack2X-Whey-Pro.jpg?v=638942518167030000",
+        "TITULO": "100% Whey Refil 900G",
+        "LINK": "https://www.maxtitanium.com.br/100-whey-refil-900g/p?skuid=1495",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/158636-600-0/100-whey-protein-max-titanium-refil-900g-baunilha-1.jpg?v=638834574933170000",
         "PRECO_ANTERIOR": null,
-        "PRECO_PRINCIPAL": "R$ 189,20",
-        "PARCELAMENTO": "Até6xdeR$ 31,53",
-        "PRECO_PIX": "R$ 183,52",
+        "PRECO_PRINCIPAL": "R$ 138,90",
+        "PARCELAMENTO": "Até4xdeR$ 34,72",
+        "PRECO_PIX": "R$ 134,73",
         "OFF": "3% OFF",
-        "REF": "Ref: Pro 2x Chocolate",
-        "DESCRICAO": "Ideal para qualquer dieta fitness e programas de treinamento, a proteína do soro do leite, em inglês Whey Protein, é a proteína em pó mais popular disponível utilizada em suplementação alimentar e esportiva",
+        "REF": "Ref: PA.004.020.0073",
+        "DESCRICAO": "100% Whey  é um suplemento a base de proteína concentrada do soro do leite (Whey Protein  Concentrate), matéria-prima elaborada com alta  tecnologia, de elevado valor biológico, rápida digestibilidade, que são fatores de relevância para \nauxiliar a síntese proteica muscular.  \nO consumo de suplementos proteicos, associado à  uma alimentação saudável e prática de atividade  física auxilia na formação de músculos e ossos.\n 100% Whey fornece 21g de proteína , quantidade de BCAAs podendo variar de acordo com o sabor e 10g de aminoácidos essenciais em 30g de produto. ",
+        "BENEFICIOS": [
+            "Até 21g de Proteína por dose",
+            "Melhor sabor do mercado",
+            "Melhor custo-benefício",
+            "Fonte de aminoácidos essenciais",
+            "As proteínas auxiliam na formação dos músculos e ossos",
+            "Alto teor de proteínas"
+        ]
+    },
+    {
+        "TITULO": "Whey Blend 1,8Kg - Nova Fórmula",
+        "LINK": "https://www.maxtitanium.com.br/whey-blend-18kg---nova-formula/p?skuid=1539",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157676-600-0/whey-blend-max-titanium-1.8kg-baunilha-1.jpg?v=638794623862200000",
+        "PRECO_ANTERIOR": "R$ 269,90",
+        "PRECO_PRINCIPAL": "R$ 189,90",
+        "PARCELAMENTO": "Até6xdeR$ 31,65",
+        "PRECO_PIX": "R$ 184,20",
+        "OFF": "31% OFF",
+        "REF": "Ref: PA.004.020.0090",
+        "DESCRICAO": "1,8Kg",
+        "BENEFICIOS": [
+            "25g de proteína por porção",
+            "Fonte de aminoácidos essenciais",
+            "As proteínas auxiliam na formação dos músculos e ossos",
+            "Alto teor de proteínas"
+        ]
+    },
+    {
+        "TITULO": "Whey Pro 1Kg",
+        "LINK": "https://www.maxtitanium.com.br/whey-pro-1kg/p?skuid=123",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157682-600-0/whey-pro-max-titanium-1kg-chocolate-1.jpg?v=638351515709130000",
+        "PRECO_ANTERIOR": "R$ 94,60",
+        "PRECO_PRINCIPAL": "R$ 85,14",
+        "PARCELAMENTO": "Até2xdeR$ 42,57",
+        "PRECO_PIX": "R$ 82,59",
+        "OFF": "12% OFF",
+        "REF": "Ref: PA.004.001.0041",
+        "DESCRICAO": "1kg",
         "BENEFICIOS": [
             "15g de Proteína por doses",
             "Melhor sabor do mercado",
@@ -109,9 +107,89 @@
         "PRECO_PIX": "R$ 285,67",
         "OFF": "2% OFF",
         "REF": "Ref: PA.004.001.0013",
-        "DESCRICAO": "O ISO WHEY da Max Titanium contém 100% de WHEY PROTEIN ISOLADO, isso significa que o produto possui elevada concentração proteica. \nDesenvolvido com matéria-prima de tecnologia específica, que proporciona excelente digestibilidade e máxima absorção, o ISO WHEY tem baixíssima quantidade de carboidratos por porção.",
+        "DESCRICAO": "O ISO WHEY O ISO WHEY da Max Titanium contém 100% de \r\nWHEY PROTEIN ISOLADO, isso significa que o produto possui elevada concentração proteica. \nDesenvolvido com matéria-prima de tecnologia específica, que proporciona excelente digestibilidade e máxima absorção, o ISO WHEY tem baixíssima quantidade de carboidratos por porção individual.",
         "BENEFICIOS": [
             "26g de proteína por porção",
+            "Zero glúten e Zero açúcar adicionado",
+            "Proteínas de alto valor biológico",
+            "Fonte de aminoácidos essenciais",
+            "As proteínas auxiliam na formação dos músculos e ossos",
+            "Alto teor de proteínas"
+        ]
+    },
+    {
+        "TITULO": "Pack 2x Whey Pro 1Kg",
+        "LINK": "https://www.maxtitanium.com.br/pack-2x-whey-pro-1kg/p?skuid=1431",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/158197-600-0/MAX-Imagem-Pack2X-Whey-Pro.jpg?v=638942518167030000",
+        "PRECO_ANTERIOR": "R$ 189,20",
+        "PRECO_PRINCIPAL": "R$ 170,28",
+        "PARCELAMENTO": "Até5xdeR$ 34,05",
+        "PRECO_PIX": "R$ 165,17",
+        "OFF": "12% OFF",
+        "REF": "Ref: Pro 2x Chocolate",
+        "DESCRICAO": "",
+        "BENEFICIOS": [
+            "15g de Proteína por doses",
+            "Melhor sabor do mercado",
+            "Melhor custo-benefício",
+            "Fonte de aminoácidos essenciais",
+            "As proteínas auxiliam na formação dos músculos e ossos",
+            "Alto teor de proteínas"
+        ]
+    },
+    {
+        "TITULO": "Whey Protein Dr. Peanut 100% Whey 900g",
+        "LINK": "https://www.maxtitanium.com.br/100-whey-dr-peanut/p?skuid=1075",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157350-600-0/100-whey-protein-max-titanium-dr-peanut-900g-avela-1.jpg?v=638343752603430000",
+        "PRECO_ANTERIOR": null,
+        "PRECO_PRINCIPAL": "R$ 157,70",
+        "PARCELAMENTO": "Até5xdeR$ 31,54",
+        "PRECO_PIX": "R$ 152,97",
+        "OFF": "2% OFF",
+        "REF": "Ref: PA.004.001.0241",
+        "DESCRICAO": "  100% WHEY da Max Titanium  em colaboração com a  Dr. Peanut  é a proteína ideal para quem busca performance e sabor em um único suplemento. Quem conhece a Dr. Peanut sabe de sua qualidade associada aos sabores incríveis e trouxemos isso para o Whey da Max. \n  Sua formulação à base de proteína concentrada do soro do leite (Whey Protein Concentrate), auxilia na formação dos músculos e ossos. Com sabores exclusivos e campeões de vendas da Dr. \r\nPeanut, é elaborado com matéria-prima de alta tecnologia e valor \r\nbiológico, trazendo rápida digestibilidade e elevada concentração \r\nde aminoácidos essenciais. ",
+        "BENEFICIOS": [
+            "20g de Proteína por dose",
+            "Melhor sabor do mercado",
+            "Melhor custo-benefício",
+            "Fonte de aminoácidos essenciais",
+            "As proteínas auxiliam na formação dos músculos e ossos",
+            "Alto teor de proteínas"
+        ]
+    },
+    {
+        "TITULO": "Pack 2x 100% Whey Refil 900G",
+        "LINK": "https://www.maxtitanium.com.br/pack-100-whey/p?skuid=1140",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157896-600-0/MicrosoftTeams-image--35-.png?v=638435053610200000",
+        "PRECO_ANTERIOR": null,
+        "PRECO_PRINCIPAL": "R$ 277,80",
+        "PARCELAMENTO": "Até6xdeR$ 46,30",
+        "PRECO_PIX": "R$ 269,47",
+        "OFF": "3% OFF",
+        "REF": "Ref: Pack-Whey-001",
+        "DESCRICAO": "Pack:  2 unidades de 100% Whey Refil \r\n\r\n100% Whey  é um suplemento a base de proteína concentrada do soro do leite (Whey Protein  Concentrate), matéria-prima elaborada com alta  tecnologia, de elevado valor biológico, rápida digestibilidade e alta concentração de aminoácidos essenciais, que são fatores de relevância para \r\nauxiliar a síntese proteica muscular.  \nO consumo de suplementos proteicos, associado à  uma alimentação saudável e prática de atividade  física auxilia na formação de músculos e ossos.\n 100% Whey fornece 21g de proteína , quantidade de BCAAs podendo variar de acordo com o sabor e 10g de aminoácidos essenciais em 30g de produto. ",
+        "BENEFICIOS": [
+            "Até 21g de Proteína por dose",
+            "Melhor sabor do mercado",
+            "Melhor custo-benefício",
+            "Fonte de aminoácidos essenciais",
+            "As proteínas auxiliam na formação dos músculos e ossos",
+            "Alto teor de proteínas"
+        ]
+    },
+    {
+        "TITULO": "Iso Clear Whey Pote 405g",
+        "LINK": "https://www.maxtitanium.com.br/iso-clear-whey/p?skuid=2393",
+        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/159508-600-0/MAX-CLEAR-WHEY-ABACAXI-PDP1.jpg?v=638948476722800000",
+        "PRECO_ANTERIOR": null,
+        "PRECO_PRINCIPAL": "R$ 220,90",
+        "PARCELAMENTO": "Até6xdeR$ 36,81",
+        "PRECO_PIX": "R$ 214,27",
+        "OFF": "3% OFF",
+        "REF": "Ref: PA.004.012.0018",
+        "DESCRICAO": "ISO CLEAR WHEY é a evolução da proteína: Whey protein isolada, leve e refrescante. Oferece 20g de proteína por porção, que auxilia na formação dos músculos e ossos. Misture 27g em 350mL de água gelada e aproveite o sabor máximo!",
+        "BENEFICIOS": [
+            "20g de Proteína Isolada por dose",
             "Zero glúten e Zero açúcar adicionado",
             "Proteínas de alto valor biológico",
             "Fonte de aminoácidos essenciais",
@@ -140,26 +218,6 @@
         ]
     },
     {
-        "TITULO": "Whey Protein Dr. Peanut 100% Whey 900g",
-        "LINK": "https://www.maxtitanium.com.br/100-whey-dr-peanut/p?skuid=1075",
-        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157350-600-0/100-whey-protein-max-titanium-dr-peanut-900g-avela-1.jpg?v=638343752603430000",
-        "PRECO_ANTERIOR": null,
-        "PRECO_PRINCIPAL": "R$ 157,70",
-        "PARCELAMENTO": "Até5xdeR$ 31,54",
-        "PRECO_PIX": "R$ 152,97",
-        "OFF": "2% OFF",
-        "REF": "Ref: PA.004.001.0241",
-        "DESCRICAO": "900g",
-        "BENEFICIOS": [
-            "20g de Proteína por dose",
-            "Melhor sabor do mercado",
-            "Melhor custo-benefício",
-            "Fonte de aminoácidos essenciais",
-            "As proteínas auxiliam na formação dos músculos e ossos",
-            "Alto teor de proteínas"
-        ]
-    },
-    {
         "TITULO": "100% Whey Pote 900G",
         "LINK": "https://www.maxtitanium.com.br/100-whey-pote-900g/p?skuid=114",
         "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/158618-600-0/100-whey-protein-max-titanium-sleeve-900g-baunilha-1.jpg?v=638834572167370000",
@@ -169,66 +227,6 @@
         "PRECO_PIX": "R$ 144,92",
         "OFF": "2% OFF",
         "REF": "Ref: PA.004.001.0151",
-        "DESCRICAO": "O 100% Whey Protein Concentrado Pote 900G da Max Titanium é a escolha ideal para quem busca uma proteína de alta qualidade para potencializar os seus objetivos de treino. Composto por proteína concentrada do soro do leite (WPC), este suplemento passa por um avançado processo de filtração que preserva nutrientes essenciais, como proteínas, lactose e minerais, enquanto reduz a quantidade de gordura e carboidratos. Cada porçãodose oferece até 20g de proteína, auxiliando no ganho de massa muscular, recuperação pós-treino e manutenção da massa magra.Desenvolvido com ingredientes cientificamente selecionados, este suplemento garante pureza, eficácia e segurança. Experimente o 100% Whey Protein Concentrado Pote 900G e descubra como maximizar seus resultados com um sabor incomparável.",
-        "BENEFICIOS": [
-            "Até 21g de Proteína por dose",
-            "Melhor sabor do mercado",
-            "Melhor custo-benefício",
-            "Fonte de aminoácidos essenciais",
-            "As proteínas auxiliam na formação dos músculos e ossos",
-            "Alto teor de proteínas"
-        ]
-    },
-    {
-        "TITULO": "Pack 2x 100% Whey Refil 900G",
-        "LINK": "https://www.maxtitanium.com.br/pack-100-whey/p?skuid=1140",
-        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157896-600-0/MicrosoftTeams-image--35-.png?v=638435053610200000",
-        "PRECO_ANTERIOR": null,
-        "PRECO_PRINCIPAL": "R$ 277,80",
-        "PARCELAMENTO": "Até6xdeR$ 46,30",
-        "PRECO_PIX": "R$ 269,47",
-        "OFF": "2% OFF",
-        "REF": "Ref: Pack-Whey-001",
-        "DESCRICAO": "Pack:  2 unidades de 100% Whey Refil \r\n\r\n100% Whey  é um suplemento a base de proteína concentrada do soro do leite (Whey Protein  Concentrate), matéria-prima elaborada com alta  tecnologia, de elevado valor biológico, rápida digestibilidade e alta concentração de aminoácidos essenciais, que são fatores de relevância para \r\nauxiliar a síntese proteica muscular.  \nO consumo de suplementos proteicos, associado à  uma alimentação saudável e prática de atividade  física auxilia na formação de músculos e ossos.\n 100% Whey fornece 21g de proteína , quantidade de BCAAs podendo variar de acordo com o sabor e 10g de aminoácidos essenciais em 30g de produto. ",
-        "BENEFICIOS": [
-            "Até 21g de Proteína por dose",
-            "Melhor sabor do mercado",
-            "Melhor custo-benefício",
-            "Fonte de aminoácidos essenciais",
-            "As proteínas auxiliam na formação dos músculos e ossos",
-            "Alto teor de proteínas"
-        ]
-    },
-    {
-        "TITULO": "Kit Top Whey 3W + Sabor e Coqueteleira Incolor Brinde",
-        "LINK": "https://www.maxtitanium.com.br/kit-whey-3w-sabor-coqueteleira-brinde/p?skuid=1326",
-        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/158129-600-0/MAX-Coqueteleira-Incolor-Top_Whey-Sabor-Choco_Branco.jpg?v=638576816120670000",
-        "PRECO_ANTERIOR": "R$ 223,97",
-        "PRECO_PRINCIPAL": "R$ 199,80",
-        "PARCELAMENTO": "Até6xdeR$ 33,30",
-        "PRECO_PIX": "R$ 193,81",
-        "OFF": "13% OFF",
-        "REF": "Ref: Chocolate Branco com Morango",
-        "DESCRICAO": "Kit Top Whey 3W + Sabor e Coqueteleira Incolor Brinde",
-        "BENEFICIOS": [
-            "Até 26g de proteína por porção",
-            "Máxima Performance",
-            "Proteínas de alto valor biológico",
-            "Fonte de aminoácidos essenciais",
-            "As proteínas auxiliam na formação dos músculos e ossos",
-            "Alto teor de proteínas"
-        ]
-    },
-    {
-        "TITULO": "Pack 3x 100% Whey Refil 900G",
-        "LINK": "https://www.maxtitanium.com.br/pack-3x-100-whey/p?skuid=1155",
-        "FIGURA": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157937-600-0/MAX-Imagens_Packs_Whey-3x.jpg?v=638460328856370000",
-        "PRECO_ANTERIOR": null,
-        "PRECO_PRINCIPAL": "R$ 416,70",
-        "PARCELAMENTO": "Até6xdeR$ 69,45",
-        "PRECO_PIX": "R$ 404,20",
-        "OFF": "2% OFF",
-        "REF": "Ref: Pack-3x-Whey-001",
         "DESCRICAO": "900g",
         "BENEFICIOS": [
             "Até 21g de Proteína por dose",

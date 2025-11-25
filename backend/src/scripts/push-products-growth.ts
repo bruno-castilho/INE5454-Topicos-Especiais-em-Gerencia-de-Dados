@@ -3,6 +3,12 @@ import growthAminoacidos from '../../../growth/aminoacidos/produtos.json'
 import growthCarboidratos from '../../../growth/carboidratos/produtos.json'
 import growthPreTreino from '../../../growth/pre-treino/produtos.json'
 import growthProteinas from '../../../growth/proteinas/produtos.json'
+
+import growthAcessorios from '../../../growth/acessorios/produtos.json'
+import growthOutlet from '../../../growth/outlet/produtos.json'
+import growthVitaminas from '../../../growth/vitaminas/produtos.json'
+import growthTermogenico from '../../../growth/termogenico/produtos.json'
+
 import { ProductRepository } from '@/repositories/product-repository'
 
 const prismaGrowthAminoacidos: Prisma.ProductCreateInput[] =
@@ -71,6 +77,72 @@ const prismaGrowthProteinas: Prisma.ProductCreateInput[] = growthProteinas.map(
   },
 )
 
+const prismaGrowthAcessorios: Prisma.ProductCreateInput[] =
+  growthAcessorios.map((product) => {
+    const priceString = product.PRECO_PIX.replace(/[^0-9,]+/g, '')
+
+    const price = parseFloat(priceString.replace(',', '.'))
+
+    return {
+      title: product.TITULO,
+      link: product.LINK,
+      imageUrl: product.FIGURA,
+      brand: 'GROWTH',
+      category: 'ACESSORIOS',
+      price,
+    }
+  })
+
+const prismaGrowthOutlet: Prisma.ProductCreateInput[] = growthOutlet.map(
+  (product) => {
+    const priceString = product.PRECO_PIX.replace(/[^0-9,]+/g, '')
+
+    const price = parseFloat(priceString.replace(',', '.'))
+
+    return {
+      title: product.TITULO,
+      link: product.LINK,
+      imageUrl: product.FIGURA,
+      brand: 'GROWTH',
+      category: 'OUTLET',
+      price,
+    }
+  },
+)
+
+const prismaGrowthVitaminas: Prisma.ProductCreateInput[] = growthVitaminas.map(
+  (product) => {
+    const priceString = product.PRECO_PIX.replace(/[^0-9,]+/g, '')
+
+    const price = parseFloat(priceString.replace(',', '.'))
+
+    return {
+      title: product.TITULO,
+      link: product.LINK,
+      imageUrl: product.FIGURA,
+      brand: 'GROWTH',
+      category: 'VITAMINAS',
+      price,
+    }
+  },
+)
+
+const prismaGrowthTermogenico: Prisma.ProductCreateInput[] =
+  growthTermogenico.map((product) => {
+    const priceString = product.PRECO_PIX.replace(/[^0-9,]+/g, '')
+
+    const price = parseFloat(priceString.replace(',', '.'))
+
+    return {
+      title: product.TITULO,
+      link: product.LINK,
+      imageUrl: product.FIGURA,
+      brand: 'GROWTH',
+      category: 'TERMOGENICOS',
+      price,
+    }
+  })
+
 async function main() {
   const productRepository = new ProductRepository()
 
@@ -79,6 +151,10 @@ async function main() {
     productRepository.createMany(prismaGrowthCarboidratos),
     productRepository.createMany(prismaGrowthPreTreino),
     productRepository.createMany(prismaGrowthProteinas),
+    productRepository.createMany(prismaGrowthAcessorios),
+    productRepository.createMany(prismaGrowthOutlet),
+    productRepository.createMany(prismaGrowthTermogenico),
+    productRepository.createMany(prismaGrowthVitaminas),
   ])
 }
 
