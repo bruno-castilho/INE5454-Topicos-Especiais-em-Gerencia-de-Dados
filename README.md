@@ -30,3 +30,25 @@ no vídeo deapresentação do trabalho.
         - 2.2 Dataset extraído - colocar em qualquer repositório público (por ex, GitHub);
         - 2.3 Código desenvolvido - colocar em qualquer repositório público (por ex, GitHub).
 
+## Web Scraping
+**Dependências:**
+- Docker: https://docs.docker.com/engine/install/
+
+1. Faça o build da imagem Docker executando o seguinte comando na pasta raiz do projeto:
+   ```
+    docker build -t INE5454-GRUPO-2 .
+   ```
+3. Faça o scraping dos dados executando o seguinte comando:
+   ```bash
+    docker run INE5454-GRUPO-2 python main.py
+   ```
+
+## Aplicação Web
+**Dependências:**
+- Docker: [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
+- Docker Compose: [https://docs.docker.com/compose/install/linux/](https://docs.docker.com/compose/install/linux/)
+
+1. Faça o deploy da aplicação executando o seguinte comando na pasta raiz do projeto:
+```
+docker compose up -d
+```
