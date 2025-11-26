@@ -24,9 +24,9 @@ de seu trabalho, deverão informar um exemplo de aplicativo que iriam utilizar o
 extraídos; esse aplicativo deverá ser simulado e alguns prints de tela deverão ser mostrados
 no vídeo deapresentação do trabalho.
 - [ ] Entrega do trabalho:
-  a. A data limite para finalização do trabalho está descrita no Moodle. Alunos que
-  finalizarem antes podem submeter o trabalho antes.
-  b. Entregar:
-  i. vídeo de apresentação, utilizando o template fornecido no Moodle;
-  ii. dataset extraído - colocar em qualquer repositório público (por ex, GitHub)
-  iii. codigo desenvovido - colocar em qualquer repositório público (por ex, GitHub)
+    1. A data limite para finalização do trabalho está descrita no Moodle. Alunos que finalizarem antes podem submeter o trabalho antes.
+    2. Entregar:
+        - 2.1 Vídeo de apresentação, utilizando o template fornecido no Moodle;
+        - 2.2 Dataset extraído - colocar em qualquer repositório público (por ex, GitHub);
+        - 2.3 Código desenvolvido - colocar em qualquer repositório público (por ex, GitHub).
+
