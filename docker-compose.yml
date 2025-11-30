@@ -1,0 +1,40 @@
+services:
+    postgres:
+      image: postgres
+      environment:
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: docker
+        POSTGRES_DB: backend
+        PGDATA: /data/postgres
+      volumes:
+        - postgres5:/data/postgres
+
+      healthcheck:
+        test: pg_isready -U postgres -d backend
+        interval: 10s
+        timeout: 3s
+        retries: 3
+
+
+    frontend:
+      build: ./frontend
+      environment:
+        - VITE_API_URL=http://localhost:3333
+      ports:
+        - 5173:5173
+
+    backend:
+      build: ./backend
+      environment:
+        - DATABASE_URL=postgresql://postgres:docker@postgres:5432/backend?schema=public
+      volumes:
+        - ./produtos.json:/app/produtos.json
+
+      ports:
+        - 3333:3333
+      depends_on:
+        postgres:
+          condition: service_healthy
+
+volumes:
+  postgres5:

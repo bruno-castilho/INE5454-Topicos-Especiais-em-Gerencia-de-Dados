@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "products:push": "tsx src/scripts/push-products.ts",
     "products:push:growth": "tsx src/scripts/push-products-growth.ts",
     "products:push:max": "tsx src/scripts/push-products-max.ts",
     "products:push:integralmedica": "tsx src/scripts/push-products-integralmedica.ts",

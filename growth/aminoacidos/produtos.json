@@ -143,9 +143,9 @@
         "TITULO": "Arginina Powder 250g - Growth Supplements",
         "LINK": "https://www.gsuplementos.com.br/arginina-powder-250gr-growth-supplements",
         "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/arginina-powder-250g-growth-supplements.jpg",
-        "PRECO_PRINCIPAL": "R$66,55",
-        "PARCELAMENTO": "Até 6x de R$11,09",
-        "PRECO_PIX": "R$59,90",
+        "PRECO_PRINCIPAL": "R$58,77",
+        "PARCELAMENTO": "Até 6x de R$9,80",
+        "PRECO_PIX": "R$52,90",
         "OFF": "10% OFF",
         "BENEFICIOS": [
             "Fonte De Aminoácidos Essenciais",
@@ -171,9 +171,9 @@
         "TITULO": "Amino Powder 10 - 200g - Growth Supplements",
         "LINK": "https://www.gsuplementos.com.br/amino-powder-10-200gr-growth-supplements-p988074",
         "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/amino-powder-10-200g-growth-supplements-1.jpg",
-        "PRECO_PRINCIPAL": "R$77,66",
-        "PARCELAMENTO": "Até 6x de R$12,94",
-        "PRECO_PIX": "R$69,90",
+        "PRECO_PRINCIPAL": "R$61,00",
+        "PARCELAMENTO": "Até 6x de R$10,17",
+        "PRECO_PIX": "R$54,90",
         "OFF": "10% OFF",
         "BENEFICIOS": [
             "Estimula Hipertrofia",
@@ -198,9 +198,9 @@
         "TITULO": "L-Carnitina Líquida 2000 - 420ml - Growth Supplements",
         "LINK": "https://www.gsuplementos.com.br/l-carnitina-liquida-2000-420-ml",
         "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/l-carnitina-l-quida-2200-420ml-growth-supplements-2.png",
-        "PRECO_PRINCIPAL": "R$22,11",
-        "PARCELAMENTO": "Até 4x de R$5,53",
-        "PRECO_PIX": "R$19,90",
+        "PRECO_PRINCIPAL": "R$19,88",
+        "PARCELAMENTO": "Até 3x de R$6,63",
+        "PRECO_PIX": "R$17,90",
         "OFF": "10% OFF",
         "BENEFICIOS": [
             "Com sabor para melhor experiência",
@@ -237,6 +237,20 @@
         ]
     },
     {
+        "TITULO": "BCAA (5:1:1) (200g) (em pó) - Growth Supplements",
+        "LINK": "https://www.gsuplementos.com.br/bcaa-5-1-1-200g-em-po-growth-supplements-p987916",
+        "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/bcaa-5-1-1-200g-em-p-growth-supplements.jpg",
+        "PRECO_PRINCIPAL": "R$47,66",
+        "PARCELAMENTO": "Até 6x de R$7,94",
+        "PRECO_PIX": "R$42,90",
+        "OFF": "10% OFF",
+        "BENEFICIOS": [
+            "Para performance nos treinos",
+            "Aminoácidos essenciais",
+            "Para treinos de hipertrofia ou redução de peso"
+        ]
+    },
+    {
         "TITULO": "Beta-Alanina 120 Comprimidos - Growth Supplements",
         "LINK": "https://www.gsuplementos.com.br/beta-alanina-120-comprimidos-growth-supplements",
         "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/beta-alanina-120-comprimidos-growth-supplements.png",
@@ -248,20 +262,6 @@
             "Ação Antioxidante",
             "Auxilia na desempenho atlético",
             "Efeito tamponante"
-        ]
-    },
-    {
-        "TITULO": "BCAA (5:1:1) (200g) (em pó) - Growth Supplements",
-        "LINK": "https://www.gsuplementos.com.br/bcaa-5-1-1-200g-em-po-growth-supplements-p987916",
-        "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/bcaa-5-1-1-200g-em-p-growth-supplements.jpg",
-        "PRECO_PRINCIPAL": "R$53,22",
-        "PARCELAMENTO": "Até 6x de R$8,87",
-        "PRECO_PIX": "R$47,90",
-        "OFF": "10% OFF",
-        "BENEFICIOS": [
-            "Para performance nos treinos",
-            "Aminoácidos essenciais",
-            "Para treinos de hipertrofia ou redução de peso"
         ]
     },
     {
@@ -296,9 +296,9 @@
         "TITULO": "BCAA (2:1:1) (200g) (em pó) - Growth Supplements",
         "LINK": "https://www.gsuplementos.com.br/bcaa-2-1-1-200g-em-po-growth-supplements-p985949",
         "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/bcaa-2-1-1-200g-em-p-growth-supplements-4.jpg",
-        "PRECO_PRINCIPAL": "R$49,88",
-        "PARCELAMENTO": "Até 6x de R$8,31",
-        "PRECO_PIX": "R$44,90",
+        "PRECO_PRINCIPAL": "R$42,11",
+        "PARCELAMENTO": "Até 6x de R$7,02",
+        "PRECO_PIX": "R$37,90",
         "OFF": "10% OFF",
         "BENEFICIOS": [
             "Para performance nos treinos",

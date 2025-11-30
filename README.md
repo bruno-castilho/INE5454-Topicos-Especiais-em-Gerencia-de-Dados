@@ -35,12 +35,12 @@ no vídeo deapresentação do trabalho.
 - Docker: https://docs.docker.com/engine/install/
 
 1. Faça o build da imagem Docker executando o seguinte comando na pasta raiz do projeto:
-   ```
-    docker build -t INE5454-GRUPO-2 .
+   ```bash
+    docker build -t ine5454-grupo-2 .P
    ```
 3. Faça o scraping dos dados executando o seguinte comando:
    ```bash
-    docker run INE5454-GRUPO-2 python main.py
+    docker run -v './:/app' ine5454-grupo-2 python main.py
    ```
 
 ## Aplicação Web
@@ -49,6 +49,16 @@ no vídeo deapresentação do trabalho.
 - Docker Compose: [https://docs.docker.com/compose/install/linux/](https://docs.docker.com/compose/install/linux/)
 
 1. Faça o deploy da aplicação executando o seguinte comando na pasta raiz do projeto:
-```
+```bash
 docker compose up -d
+```
+
+2. Carregue os produtos para o banco de dados:
+```bash
+docker exec -it ine5454-topicos-especiais-em-gerencia-de-dados-backend-1 sh -c 'npm run products:push'
+```
+
+3. Acesse a plataforma em:
+```link
+http://localhost:5173/
 ```

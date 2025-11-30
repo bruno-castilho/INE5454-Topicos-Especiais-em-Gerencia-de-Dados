@@ -7,7 +7,7 @@ import { ProductRepository } from '@/repositories/product-repository'
 
 import maxOutlet from '../../../max/outlet/produtos.json'
 import maxVitaminas from '../../../max/vitaminas/produtos.json'
-import maxTermogenicos from '../../../max/termogenicos/produtos.json'
+import maxTermogenicos from '../../../max/termogenico/produtos.json'
 
 const prismaMaxAminoacidos: Prisma.ProductCreateInput[] = maxAminoacidos.map(
   (product) => {

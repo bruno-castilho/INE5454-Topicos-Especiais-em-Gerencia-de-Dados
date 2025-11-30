@@ -59,9 +59,9 @@
         "TITULO": "Dextrose (1kg) - Growth Supplements",
         "LINK": "https://www.gsuplementos.com.br/dextrose-1kg-growth-supplements-p985976",
         "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/dextrose-1kg-growth-supplements.jpg",
-        "PRECO_PRINCIPAL": "R$25,44",
-        "PARCELAMENTO": "Até 5x de R$5,09",
-        "PRECO_PIX": "R$22,90",
+        "PRECO_PRINCIPAL": "R$22,11",
+        "PARCELAMENTO": "Até 4x de R$5,53",
+        "PRECO_PIX": "R$19,90",
         "OFF": "10% OFF",
         "BENEFICIOS": [
             "Rápida Digestão",
@@ -72,9 +72,9 @@
         "TITULO": "Waxy Maize (1kg) - Growth Supplements",
         "LINK": "https://www.gsuplementos.com.br/waxy-maize-1kg-growth-supplements-p985972",
         "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/waxy-maize-1kg-growth-supplements-10.jpg",
-        "PRECO_PRINCIPAL": "R$27,66",
-        "PARCELAMENTO": "Até 5x de R$5,53",
-        "PRECO_PIX": "R$24,90",
+        "PRECO_PRINCIPAL": "R$22,11",
+        "PARCELAMENTO": "Até 4x de R$5,53",
+        "PRECO_PIX": "R$19,90",
         "OFF": "10% OFF",
         "BENEFICIOS": [
             "Poderoso Estimulante",
@@ -167,12 +167,12 @@
         ]
     },
     {
-        "TITULO": "Hiper Mass (1kg) Sabor Morango - Growth Supplements",
-        "LINK": "https://www.gsuplementos.com.br/hiper-mass-1kg-sabor-morango-growth-supplements",
-        "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/hiper-mass-1kg-sabor-morango-growth-supplements.jpg",
-        "PRECO_PRINCIPAL": "R$44,33",
-        "PARCELAMENTO": "Até 6x de R$7,39",
-        "PRECO_PIX": "R$39,90",
+        "TITULO": "Hiper Mass (1kg) Sabor Baunilha - Growth Supplements",
+        "LINK": "https://www.gsuplementos.com.br/hiper-mass-1kg-sabor-baunilha-growth-supplements",
+        "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/hiper-mass-1kg-sabor-baunilha-growth-supplements.jpg",
+        "PRECO_PRINCIPAL": "R$36,55",
+        "PARCELAMENTO": "Até 6x de R$6,09",
+        "PRECO_PIX": "R$32,90",
         "OFF": "10% OFF",
         "BENEFICIOS": [
             "Alta Concentração De Energia",
@@ -181,9 +181,9 @@
         ]
     },
     {
-        "TITULO": "Hiper Mass (1kg) Sabor Baunilha - Growth Supplements",
-        "LINK": "https://www.gsuplementos.com.br/hiper-mass-1kg-sabor-baunilha-growth-supplements",
-        "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/hiper-mass-1kg-sabor-baunilha-growth-supplements.jpg",
+        "TITULO": "Hiper Mass (1kg) Sabor Morango - Growth Supplements",
+        "LINK": "https://www.gsuplementos.com.br/hiper-mass-1kg-sabor-morango-growth-supplements",
+        "FIGURA": "https://www.gsuplementos.com.br/upload/produto/imagem/hiper-mass-1kg-sabor-morango-growth-supplements.jpg",
         "PRECO_PRINCIPAL": "R$44,33",
         "PARCELAMENTO": "Até 6x de R$7,39",
         "PRECO_PIX": "R$39,90",
