@@ -14,7 +14,7 @@ export function Boxproduct(props) {
     <Card
       sx={{
         width: 345,
-        height: 400,
+        height: 420,
         display: 'flex',
         flexDirection: 'column',
         border: '1px solid',

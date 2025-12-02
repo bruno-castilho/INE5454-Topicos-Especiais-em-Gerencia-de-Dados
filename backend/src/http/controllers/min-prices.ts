@@ -1,0 +1,32 @@
+import { ProductRepository } from '@/repositories/product-repository'
+import { FastifyReply, FastifyRequest } from 'fastify'
+import { z } from 'zod'
+
+export async function minPrices(request: FastifyRequest, reply: FastifyReply) {
+  const minPricesQuerySchema = z.object({
+    brands: z.preprocess(
+      (value) => {
+        if (typeof value === 'string') {
+          return value.split(',').map((v) => v.toUpperCase())
+        }
+
+        return undefined
+      },
+      z
+        .array(z.enum(['GROWTH', 'INTEGRALMEDICA', 'MAX']))
+        .default(['GROWTH', 'INTEGRALMEDICA', 'MAX']),
+    ),
+  })
+
+  const { brands } = minPricesQuerySchema.parse(request.query)
+
+  const productRepository = new ProductRepository()
+
+  const { minPrices } = await productRepository.minPricesByBrands({
+    brands,
+  })
+
+  return reply.status(200).send({
+    minPrices,
+  })
+}

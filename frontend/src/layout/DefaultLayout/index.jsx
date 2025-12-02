@@ -5,7 +5,7 @@ import { Header } from './Header'
 import { Footer } from './Footer'
 import { useState } from 'react'
 import { BarChart } from '@mui/icons-material'
-import { MetricsModel } from '../../components/MetricsModel'
+import { MetricsModel } from '../../components/MetricModel'
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props
